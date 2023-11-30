@@ -4,7 +4,7 @@ import {
     american,
     shell,
     dCloud
-} from "../assets";
+} from '../assets'
 
 const navLinks = [
     {

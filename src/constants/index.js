@@ -25,17 +25,6 @@ const navLinks = [
     }
 ];
 
-const navAuth = [
-    {
-        id: "sign-in",
-        title: "Sign In",
-    },
-    {
-        id: "try",
-        title: "Try Kubespaces Free",
-    }
-];
-
 const benefit = [
     {
         title: "1. Benefit here",
@@ -78,4 +67,4 @@ const clients = [
     },
 ];
 
-export { navLinks, navAuth, benefit, clients };
+export { navLinks, benefit, clients };

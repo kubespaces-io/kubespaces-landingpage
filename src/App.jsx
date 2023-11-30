@@ -10,13 +10,18 @@ const App = () => {
       <Hero />
     </div>
     <div>
-    <Clients />
+      <Clients />
+    </div>
+    <div>
       <Benefits />
       <Pricing />
       <How />
       <About />
     </div>
+    <div>
       <Footer />
+    </div>
+
     </BrowserRouter>
   )
 }

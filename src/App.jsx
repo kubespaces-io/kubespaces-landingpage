@@ -1,17 +1,22 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { NavBar, Hero, Clients, Benefits, Pricing, How, About } from './components'
+import { NavBar, Hero, Clients, Benefits, Pricing, How, About, Footer } from './components'
 
 const App = () => {
   return (
     <BrowserRouter>
+    <div>
       <NavBar />
       <Hero />
-      <Clients />
+    </div>
+    <div>
+    <Clients />
       <Benefits />
       <Pricing />
       <How />
       <About />
+    </div>
+      <Footer />
     </BrowserRouter>
   )
 }

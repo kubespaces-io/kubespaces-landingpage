@@ -5,6 +5,7 @@ import Clients from './Clients';
 import Hero from './Hero';
 import Pricing from './Pricing';
 import How from './How';
+import Footer from './Footer';
 
 export {
     NavBar,
@@ -13,5 +14,6 @@ export {
     Clients,
     Hero,
     Pricing,
-    How
+    How,
+    Footer,
 }

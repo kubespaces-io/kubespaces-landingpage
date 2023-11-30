@@ -1,8 +1,18 @@
+import { BrowserRouter } from "react-router-dom";
+
+import { NavBar, Hero, Clients, Benefits, Pricing, How, About } from './components'
+
 const App = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <BrowserRouter>
+      <NavBar />
+      <Hero />
+      <Clients />
+      <Benefits />
+      <Pricing />
+      <How />
+      <About />
+    </BrowserRouter>
   )
 }
 

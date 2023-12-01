@@ -163,4 +163,4 @@ const team = [
     
 ]
 
-export { navLinks, navFooter, benefits, clients, products, team };
+export { navLinks, navFooter, socials, benefits, clients, products, team };

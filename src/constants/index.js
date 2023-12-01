@@ -4,7 +4,8 @@ import {
     american,
     shell,
     dCloud,
-    alessandro
+    alessandro,
+    githubWhite
 } from '../assets'
 
 const navLinks = [
@@ -25,6 +26,24 @@ const navLinks = [
         title: "About",
     }
 ];
+
+const socials = [
+    {
+        title: "github",
+        icon: githubWhite,
+        url: "https://github.com/kubespaces-io"
+    },
+    {
+        title: "github",
+        icon: githubWhite,
+        url: "https://github.com/kubespaces-io"
+    },
+    {
+        title: "github",
+        icon: githubWhite,
+        url: "https://github.com/kubespaces-io"
+    }
+]
 
 const navFooter = [
     {

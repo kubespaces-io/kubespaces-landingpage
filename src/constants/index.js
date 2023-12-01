@@ -29,22 +29,22 @@ const benefits = [
     {
         title: "Benefit One",
         icon: dCloud,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Lorem ipsum dolor sit amet."
     },
     {
         title: "Benefit Two",
         icon: dCloud,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         title: "Benefit Three",
         icon: dCloud,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     },
     {
         title: "Benefit Four",
         icon: dCloud,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description: "Lorem ipsum dolor sit amet."
     },
 ];
 

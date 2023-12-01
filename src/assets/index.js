@@ -6,6 +6,7 @@ import dCloud from './dCloud.svg';
 import logo from './Logo.svg';
 import menu from './menu.svg';
 import close from './close.svg';
+import alessandro from './alessandro.png';
 
 export {
     miro,
@@ -15,5 +16,6 @@ export {
     dCloud,
     logo,
     menu,
-    close
+    close,
+    alessandro
 }

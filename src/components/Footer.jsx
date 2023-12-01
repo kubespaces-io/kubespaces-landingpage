@@ -7,7 +7,7 @@ import { logoWhite } from '../assets';
 const Footer = () => {
   return (
     <nav className={`
-      ${styles.paddingX} w-full flex justify-center items-center py-5 bg-primary`}>
+      ${styles.paddingX} w-full flex flex-col justify-center items-center py-5 bg-primary`}>
       <div className="max-w-7xl w-full flex items-center">
         <div className="flex w-full flex-col py-8 sm:py-0 sm:flex-row sm:justify-start items-center gap-8">
           <Link
@@ -40,6 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="text-white font-thin text-[10px] mt-6 tracking-wider">© 2023 - All rights reserved</div>
     </nav>
   )
 }

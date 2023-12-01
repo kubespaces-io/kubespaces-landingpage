@@ -12,7 +12,9 @@ const App = () => {
       </div>
       <Benefits />
       <Pricing />
-      <How />
+      <div className="bg-primary w-full">
+        <How />
+      </div>
       <About />
       <Footer />
     </BrowserRouter>

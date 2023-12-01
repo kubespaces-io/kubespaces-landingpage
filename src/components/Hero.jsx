@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute bottom-10 w-full flex justify-center items-center">
-        <a href="#about">
+        <a href="#clients">
           <div className="relative w-[20px] h-[44px] rounded-3xl border-2 border-primary opacity-20 flex justify-center items-start p-1">
             <div
               className="w-2 h-2 rounded-full bg-primary mb-1 animateUpDown"

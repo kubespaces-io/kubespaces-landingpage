@@ -8,7 +8,8 @@ const Benefits = () => {
     <>
       <div className="">
         <h2 className={`${styles.sectionHeadText}`}>Simple to Start. <br className="md:hidden" /> Simple to Scale.</h2>
-        <div className={`${styles.paddingY}`}>
+        <p className={`${styles.sectionSubText}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quae optio consectetur necessitatibus sed commodi veniam sequi quaerat velit, illum, exercitationem quas pariatur hic voluptate fugit itaque beatae quia earum.</p>
+        <div className={`${styles.paddingY} mt-4`}>
           <ul className="grid gap-6 grid-cols-1 sm:grid-cols-2">
             {benefits.map((benefit) => (
               <li key={benefit.title} className="self-stretch">

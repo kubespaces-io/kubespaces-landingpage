@@ -9,14 +9,14 @@ const styles = {
       "text-[#bbb] font-normal lg:text-[24px] md:text-[18px] text-[16px] lg:leading-[32px]",
   
     sectionHeadText:
-      "font-medium text-primary lg:text-[36px] md:text-[32px] sm:text-[28px] text-[24px]",
+      "font-medium text-primary lg:text-[36px] md:text-[32px] sm:text-[28px] text-[24px] mb-6",
     sectionSubText:
-      "md:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+      "text-[#bbb] font-normal lg:text-[22px] md:text-[18px] text-[16px] lg:leading-[32px]",
 
     cardHeadText:
-      "font-medium text-primary lg:text-[26px] md:text-[22px] text-[18px]",
+      "font-medium text-primary lg:text-[26px] md:text-[22px] text-[18px] mb-4",
     cardSubText:
-      "md:text-[18px] text-[14px] text-[#bbb] tracking-wider",
+      "md:text-[18px] text-[14px] text-[#bbb] tracking-wider mb-2",
   };
   
   export { styles };

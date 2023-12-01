@@ -9,7 +9,7 @@ const Footer = () => {
     <nav className={`
       ${styles.paddingX} w-full flex justify-center items-center py-5 bg-primary`}>
       <div className="max-w-7xl w-full flex items-center">
-        <div className="flex w-full flex-col sm:flex-row sm:justify-start items-center gap-8">
+        <div className="flex w-full flex-col py-8 sm:py-0 sm:flex-row sm:justify-start items-center gap-8">
           <Link
             to="/"
             className="flex items-center gap-2 z-20"

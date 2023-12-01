@@ -3,12 +3,13 @@ import {
     datadog,
     american,
     shell,
-    dCloud
+    dCloud,
+    alessandro
 } from '../assets'
 
 const navLinks = [
     {
-        id: "how-it-works",
+        id: "how",
         title: "How it works",
     },
     {
@@ -94,4 +95,38 @@ const clients = [
     },
 ];
 
-export { navLinks, benefits, clients, products };
+const team = [
+    {
+        name: "Alessandro Vozza",
+        title: "CEO",
+        image: alessandro,
+        description: "I'm Alessandro, a software engineer and developer advocate living in Amsterdam."
+    },
+    {
+        name: "Name Lastname",
+        title: "CEO",
+        image: alessandro,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        name: "Name Lastname",
+        title: "CEO",
+        image: alessandro,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        name: "Name Lastname",
+        title: "CEO",
+        image: alessandro,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        name: "Name Lastname",
+        title: "CEO",
+        image: alessandro,
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    
+]
+
+export { navLinks, benefits, clients, products, team };

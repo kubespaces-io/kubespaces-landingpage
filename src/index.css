@@ -19,6 +19,23 @@
   display: block;
 }
 
+.animateUpDown {
+  animation: MoveUpDown 1.2s linear infinite;
+  position: absolute;
+  left: 4px;
+  bottom: -20px; 
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 60%;
+  }
+}
+
+
+
 .white-gradient {
   background: #fff; /* fallback for old browsers */
   background: -webkit-linear-gradient(

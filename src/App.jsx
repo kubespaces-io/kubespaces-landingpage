@@ -7,7 +7,9 @@ const App = () => {
     <BrowserRouter>
       <NavBar />
       <Hero />
-      <Clients />
+      <div className="bg-primary w-full">
+        <Clients />
+      </div>
       <Benefits />
       <Pricing />
       <How />

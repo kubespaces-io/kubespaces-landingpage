@@ -8,9 +8,6 @@ module.exports = {
         primary: "#1351a4",
         secondary: "#86BBD8",
       },
-      boxShadow: {
-        card: "0px 35px 120px -15px #010120",
-      },
       screens: {
         xs: "450px",
       },

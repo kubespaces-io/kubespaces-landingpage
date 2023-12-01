@@ -26,6 +26,21 @@ const navLinks = [
     }
 ];
 
+const navFooter = [
+    {
+        id: "about",
+        title: "About",
+    },
+    {
+        id: "pricing",
+        title: "Pricing",
+    },
+    {
+        id: "community",
+        title: "Community",
+    }
+]
+
 const benefits = [
     {
         title: "Benefit One",
@@ -129,4 +144,4 @@ const team = [
     
 ]
 
-export { navLinks, benefits, clients, products, team };
+export { navLinks, navFooter, benefits, clients, products, team };

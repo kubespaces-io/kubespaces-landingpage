@@ -7,7 +7,7 @@ const Clients = () => {
   return (
     <>
       <div className="">
-        <h2 className={`${styles.heroSubText} w-full text-center text-white`}>Our Clients</h2>
+        <h2 className={`${styles.sectionHeadText} w-full text-center text-white`}>Our Clients</h2>
         <div className={`${styles.paddingY}`}>
           <ul className="flex justify-around items-center gap-6">
             {clients.map((client) => (

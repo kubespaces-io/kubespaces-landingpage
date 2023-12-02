@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex w-full flex-col py-8 sm:py-0 sm:flex-row sm:justify-start items-center gap-8">
           <Link
             to="/"
-            className="flex items-center gap-2 z-20"
+            className="flex items-center gap-2 z-20 hover:opacity-80"
             onClick={() => {
               window.scrollTo(0, 0);
             }}>
@@ -22,7 +22,7 @@ const Footer = () => {
           <ul className="list-none flex flex-row gap-4">
             {navFooter.map((link) => (
               <li
-                className={`font-light hover:underline underline-offset-8 decoration-2 text-[12px] text-white cursor-pointer`}
+                className={`font-light hover:opacity-80 text-[12px] text-white cursor-pointer`}
                 key={link.id}>
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>

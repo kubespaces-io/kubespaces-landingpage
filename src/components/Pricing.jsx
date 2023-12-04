@@ -40,7 +40,7 @@ const Pricing = () => {
 
                   <ul className={`${styles.cardSubText} marker:text-secondary space-y-4 my-4 mb-20 text-center`}>
                     {product.points.map((point, index) => (
-                      <li className="text-[12px] text-left">{point}</li>
+                      <li key={index} className="text-[12px] text-left">{point}</li>
                     ))}
                   </ul>
                   <div className="absolute bottom-0 w-full mt-10">

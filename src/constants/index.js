@@ -3,9 +3,13 @@ import {
     datadog,
     american,
     shell,
-    dCloud,
+    cloudnative,
+    infrastructure,
+    cloud,
+    serverless,
     alessandro,
-    githubWhite
+    githubWhite,
+    logo
 } from '../assets'
 
 const navLinks = [
@@ -62,49 +66,49 @@ const navFooter = [
 
 const benefits = [
     {
-        title: "Benefit One",
-        icon: dCloud,
-        description: "Lorem ipsum dolor sit amet."
+        title: "CloudNative Technology",
+        icon: cloudnative,
+        description: "Committed to modern cloud approaches."
     },
     {
-        title: "Benefit Two",
-        icon: dCloud,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        title: "Infrastructure Freedom",
+        icon: infrastructure,
+        description: "Free from complex infrastructure management."
     },
     {
-        title: "Benefit Three",
-        icon: dCloud,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        title: "Cloud Integration",
+        icon: cloud,
+        description: "User-friendly experience for incorporating cloud services."
     },
     {
-        title: "Benefit Four",
-        icon: dCloud,
-        description: "Lorem ipsum dolor sit amet."
+        title: "Serverless Approach",
+        icon: serverless,
+        description: "Straightforward and streamlined path into serverless adoption."
     },
 ];
 
 const products = [
     {
         title: "1. Product here",
-        icon: dCloud,
+        icon: logo,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         price: "$$$"
     },
     {
         title: "2. Product here",
-        icon: dCloud,
+        icon: logo,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         price: "$$$"
     },
     {
         title: "3. Product here",
-        icon: dCloud,
+        icon: logo,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         price: "$$$"
     },
     {
         title: "4. Product here",
-        icon: dCloud,
+        icon: logo,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         price: "$$$"
     },

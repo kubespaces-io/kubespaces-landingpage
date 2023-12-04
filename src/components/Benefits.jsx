@@ -10,16 +10,16 @@ const Benefits = () => {
         <h2 className={`${styles.sectionHeadText}`}>Simple to Start. <br className="md:hidden" /> Simple to Scale.</h2>
         <p className={`${styles.sectionSubText}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quae optio consectetur necessitatibus sed commodi veniam sequi quaerat velit, illum, exercitationem quas pariatur hic voluptate fugit itaque beatae quia earum.</p>
         <div className={`${styles.paddingY} mt-4`}>
-          <ul className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="grid gap-32 lg:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-20">
             {benefits.map((benefit) => (
               <li key={benefit.title} className="self-stretch">
-                <div className="flex flex-col items-center p-6 md:p-10 bg-white border-primary border-2 min-h-full rounded-xl hover:shadow-xl shadow-lg">
+                <div className="relative flex flex-col items-center p-6 md:p-10 bg-primary border-primary border-2 min-h-full rounded-xl hover:shadow-xl shadow-lg">
                   <img 
                     src={benefit.icon} 
                     alt={benefit.title}
-                    className={`mb-10 w-full h-full max-w-24 max-h-24 object-contain`} />
-                    <h3 className={`${styles.cardHeadText} text-center`}>{benefit.title}</h3>
-                  <p className={`${styles.cardSubText} text-center`}>{benefit.description}</p>
+                    className={`absolute top-[-100px] mb-10 max-w-[200px] max-h-[200px] object-contain bg-white border-2 border-primary rounded-full p-6`} />
+                    <h3 className={`${styles.cardHeadText} text-white text-center mt-[100px]`}>{benefit.title}</h3>
+                  <p className={`${styles.cardSubText} text-white text-center`}>{benefit.description}</p>
                 </div>
                 
               </li>

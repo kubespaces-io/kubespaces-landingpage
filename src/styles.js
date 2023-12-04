@@ -16,7 +16,7 @@ const styles = {
     cardHeadText:
       "font-medium text-primary lg:text-[26px] md:text-[22px] text-[18px] mb-4",
     cardSubText:
-      "md:text-[18px] text-[14px] text-[#bbb] tracking-wider mb-2",
+      "font-light md:text-[18px] text-[14px] text-[#bbb] tracking-wider mb-2",
   };
   
   export { styles };

@@ -135,22 +135,22 @@ const products = [
 ];
 
 const clients = [
-    {
-        title: "Miro",
-        icon: miro,
-    },
-    {
-        title: "Datadog",
-        icon: datadog,
-    },
-    {
-        title: "American Express",
-        icon: american,
-    },
-    {
-        title: "Shell",
-        icon: shell,
-    },
+    // {
+    //     title: "Miro",
+    //     icon: miro,
+    // },
+    // {
+    //     title: "Datadog",
+    //     icon: datadog,
+    // },
+    // {
+    //     title: "American Express",
+    //     icon: american,
+    // },
+    // {
+    //     title: "Shell",
+    //     icon: shell,
+    // },
 ];
 
 const team = [

@@ -184,7 +184,7 @@ const team = [
         name: "Orlando Hutchings",
         title: "COO",
         image: orlando,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description: "I'm Orlando, experienced operator with demonstrated success scaling startups from ideation to post-series B."
     },    
 ]
 

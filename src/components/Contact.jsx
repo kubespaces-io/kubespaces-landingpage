@@ -79,75 +79,78 @@ const Contact = () => {
 
   return (
     <GoogleReCaptchaProvider reCaptchaKey="6LewUTApAAAAACh_SE7Tt-jBhhj8BqefgT90hUIA">
-      <div className="mb:4 md:mb-12 xl:mt-12 overflow-hidden w-full md:w-[50%]">
-        <div className='p-8'>
-          <h3 className={`${styles.sectionHeadText}`}>Contact.</h3>
-          <p className={styles.sectionSubText}>Get in touch.</p>
-          {showSuccessMessage ? (
+      {/* <div className='relative w-full mx-auto bg-hero-pattern bg-no-repeat bg-contain bg-right-bottom'> */}
+        <div className="mb:4 md:mb-12 xl:mt-12 overflow-hidden w-full md:w-[50%]">
+          <div className='p-8'>
+            <h3 className={`${styles.sectionHeadText} text-white`}>Contact.</h3>
+            <p className={styles.sectionSubText}>Get in touch.</p>
+            {showSuccessMessage ? (
               <div className="mt-12 p-10 border-2 border-tertiary bg-white rounded-xl flex flex-col gap-8">
                 <img className="w-[150px]" src={success} alt="Success" />
                 <h3 className={`${styles.cardHeadText}`}>Thank you for your message!</h3>
-                  <p className={`${styles.cardSubText}`}>We will get back to you as soon as possible.</p>
+                <p className={`${styles.cardSubText}`}>We will get back to you as soon as possible.</p>
               </div>
             ) : (
               <form
-            ref={formRef}
-            onSubmit={handleSubmit}
-            className='mt-12 p-10 border-2 border-tertiary bg-white rounded-xl flex flex-col gap-8'>
-            <label htmlFor="name" className="flex flex-col">
-              <span className='text-primary font-medium mb-4'>Your Full Name</span>
-              <input
-                required
-                id="name"
-                autoComplete="name"
-                type="text"
-                name="name"
-                value={form.name}
-                onChange={handleChange}
-                placeholder="What's your name?"
-                className="border-2 border-gray-200 bg-gray-100 py-4 px-6 placeholder:text-secondary placeholder:font-light placeholder:text-[12px] placeholder:italic  rounded-lg outline-none border-none font-medium" />
-            </label>
-            <label htmlFor="email" className="flex flex-col">
-              <span className='text-primary font-medium mb-4'>Your Email Address</span>
-              <input
-                required
-                id="email"
-                autoComplete="email"
-                type="email"
-                name="email"
-                value={form.email}
-                onChange={handleChange}
-                placeholder="What's your email?"
-                className="required:border-red-500 border-2 border-gray-200 bg-gray-100 py-4 px-6 placeholder:text-secondary placeholder:font-light placeholder:italic placeholder:text-[12px] rounded-lg outline-none border-none font-medium" />
-            </label>
-            {/* Empty input to hopefully fool some bots */}
-            <input type="text" name="foolingBots" style={{ display: 'none' }} />
-            {/* End Empty input */}
-            <label htmlFor="message" className="flex flex-col">
-              <span className='text-primary font-medium mb-4'>Your Message</span>
-              <textarea
-                required
-                id="message"
-                rows={7}
-                name="message"
-                value={form.message}
-                onChange={handleChange}
-                placeholder="What do you want to say?"
-                className="border-2 border-gray-200 bg-gray-100 py-4 px-6 placeholder:text-secondary placeholder:font-light placeholder:italic placeholder:text-[12px] rounded-lg outline-none border-none font-medium" />
-            </label>
-            <WithGoogleRecaptchaExample
-              handleRecaptchaChange={handleRecaptchaChange}
-            />
-            <button
-              type="submit"
-              disabled={!isRecaptchaVerified || loading || showSuccessMessage}
-              className={`${(!isRecaptchaVerified || loading || showSuccessMessage) ? "opacity-50" : "opacity-100"} w-full bg-primary hover:bg-white border border-primary py-2 px-4 outline-none text-white hover:text-primary font-semibold text-[12px] rounded-md md:w-fit`}>
-              {loading ? "Sending..." : "Send"}
-            </button>
-          </form>
+                ref={formRef}
+                onSubmit={handleSubmit}
+                className='mt-12 p-10 border-2 border-primary bg-white rounded-xl flex flex-col gap-8'>
+                <label htmlFor="name" className="flex flex-col">
+                  <span className='text-primary font-medium mb-4'>Your Full Name</span>
+                  <input
+                    required
+                    id="name"
+                    autoComplete="name"
+                    type="text"
+                    name="name"
+                    value={form.name}
+                    onChange={handleChange}
+                    placeholder="What's your name?"
+                    className="border-2 border-gray-200 bg-gray-100 py-4 px-6 placeholder:text-secondary placeholder:font-light placeholder:text-[12px] placeholder:italic  rounded-lg outline-none border-none font-medium" />
+                </label>
+                <label htmlFor="email" className="flex flex-col">
+                  <span className='text-primary font-medium mb-4'>Your Email Address</span>
+                  <input
+                    required
+                    id="email"
+                    autoComplete="email"
+                    type="email"
+                    name="email"
+                    value={form.email}
+                    onChange={handleChange}
+                    placeholder="What's your email?"
+                    className="required:border-red-500 border-2 border-gray-200 bg-gray-100 py-4 px-6 placeholder:text-secondary placeholder:font-light placeholder:italic placeholder:text-[12px] rounded-lg outline-none border-none font-medium" />
+                </label>
+                {/* Empty input to hopefully fool some bots */}
+                <input type="text" name="foolingBots" style={{ display: 'none' }} />
+                {/* End Empty input */}
+                <label htmlFor="message" className="flex flex-col">
+                  <span className='text-primary font-medium mb-4'>Your Message</span>
+                  <textarea
+                    required
+                    id="message"
+                    rows={7}
+                    name="message"
+                    value={form.message}
+                    onChange={handleChange}
+                    placeholder="What do you want to say?"
+                    className="border-2 border-gray-200 bg-gray-100 py-4 px-6 placeholder:text-secondary placeholder:font-light placeholder:italic placeholder:text-[12px] rounded-lg outline-none border-none font-medium" />
+                </label>
+                <WithGoogleRecaptchaExample
+                  handleRecaptchaChange={handleRecaptchaChange}
+                />
+                <button
+                  type="submit"
+                  disabled={!isRecaptchaVerified || loading || showSuccessMessage}
+                  className={`${(!isRecaptchaVerified || loading || showSuccessMessage) ? "opacity-50" : "opacity-100"} w-full bg-primary hover:bg-white border border-primary py-2 px-4 outline-none text-white hover:text-primary font-semibold text-[16px] rounded-md md:w-fit`}>
+                  {loading ? "Sending..." : "Send"}
+                </button>
+              </form>
             )}
+          </div>
         </div>
-      </div>
+      {/* </div> */}
+
     </GoogleReCaptchaProvider>
   )
 }

@@ -1,4 +1,5 @@
 import {
+    comingsoon,
     miro,
     datadog,
     american,
@@ -8,7 +9,12 @@ import {
     cloud,
     serverless,
     alessandro,
+    fabrizio,
+    orlando,
+    meg,
     githubWhite,
+    linkedinWhite,
+    producthuntWhite,
     logo
 } from '../assets'
 
@@ -38,14 +44,14 @@ const socials = [
         url: "https://github.com/kubespaces-io"
     },
     {
-        title: "github",
-        icon: githubWhite,
-        url: "https://github.com/kubespaces-io"
+        title: "linkedin",
+        icon: linkedinWhite,
+        url: "https://www.linkedin.com/company/kubespaces-io"
     },
     {
-        title: "github",
-        icon: githubWhite,
-        url: "https://github.com/kubespaces-io"
+        title: "producthunt",
+        icon: producthuntWhite,
+        url: "https://www.linkedin.com/company/kubespaces-io    "
     }
 ]
 
@@ -89,13 +95,13 @@ const benefits = [
 
 const products = [
     {
-        title: "Free",
+        title: "Free Trial",
         icon: logo,
         points: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "14-day free trial, with no credit card required, full access to all features.",
+            "Easily upgrade to a paid plan at any time, no need to reinstall or reconfigure.",
+            "Connect to your identity provider to manage users and permissions.",
+            "Use our scalable, secure, and reliable cloud infrastructure to run your workloads."
         ],
         price: "0,- $/month"
     },
@@ -103,54 +109,54 @@ const products = [
         title: "Gold",
         icon: logo,
         points: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "An infinitely scalable, secure, and reliable cloud infrastructure to run your workloads.",
+            "Start small and scale up as your business grows.",
+            "Get priority support from our team of experts.",
+            "Major identity providers supported (Okta, Azure AD, Google, etc.)",
         ],
-        price: "$$,- $/month"
+        price: "Pay as you go"
     },
     {
         title: "Platinum",
         icon: logo,
         points: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Bring your own cloud infrastructure to run your workloads.",
+            "Onboard your developers and teams to our platform.",
+            "Work with us to build custom features and integrations.",
+            "Dedicated support from our team of experts."
         ],
-        price: "$$$$,- $/month"
+        price: "Call for a Quote"
     },
     {
         title: "Custom",
         icon: logo,
         points: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Come join us as a partner to build the future of cloud-native development.",
+            "Branded experience for your customers.",
+            "Custom features and integrations.",
+            "Be part of our roadmap and help shape the future of cloud-native development."
         ],
         price: "Call for a Quote"
     },
 ];
 
 const clients = [
-    // {
-    //     title: "Miro",
-    //     icon: miro,
-    // },
-    // {
-    //     title: "Datadog",
-    //     icon: datadog,
-    // },
-    // {
-    //     title: "American Express",
-    //     icon: american,
-    // },
-    // {
-    //     title: "Shell",
-    //     icon: shell,
-    // },
+    {
+        title: "Coming Soon",
+        icon: comingsoon,
+    },
+    {
+        title: "Coming Soon",
+        icon: comingsoon,
+    },
+    {
+        title: "Coming Soon",
+        icon: comingsoon,
+    },
+    {
+        title: "Coming Soon",
+        icon: comingsoon,
+    },
 ];
 
 const team = [
@@ -161,30 +167,23 @@ const team = [
         description: "I'm Alessandro, a software engineer and developer advocate living in Amsterdam."
     },
     {
-        name: "Name Lastname",
-        title: "CEO",
-        image: alessandro,
+        name: "Fabrizio Marras",
+        title: "CIO",
+        image: fabrizio,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-        name: "Name Lastname",
-        title: "CEO",
-        image: alessandro,
+        name: "Meg Stefouli",
+        title: "CPO",
+        image: meg,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-        name: "Name Lastname",
-        title: "CEO",
-        image: alessandro,
+        name: "Orlando Hutchings",
+        title: "COO",
+        image: orlando,
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        name: "Name Lastname",
-        title: "CEO",
-        image: alessandro,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    
+    },    
 ]
 
 export { navLinks, navFooter, socials, benefits, clients, products, team };

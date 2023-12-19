@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-white font-thin text-[10px] mt-6 tracking-wider">© 2023 - All rights reserved</div>
+      <div className="text-white font-thin text-[10px] mt-6 tracking-wider">© 2023 - All rights reserved - Kubespaces B.V.</div>
     </nav>
   )
 }

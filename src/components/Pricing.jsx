@@ -8,7 +8,7 @@ const Pricing = () => {
     <>
       <div className="">
         <h2 className={`${styles.sectionHeadText}`}>Our  Products.</h2>
-        <p className={`${styles.sectionSubText}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quae optio consectetur necessitatibus sed commodi veniam sequi quaerat velit, illum, exercitationem quas pariatur hic voluptate fugit itaque beatae quia earum.</p>
+        <p className={`${styles.sectionSubText}`}>We want to simplify the developer experience of adopting cloud native technologies by providing a seamless, turn-key solution that allows developers to focus on their code and not the infrastructure. We believe that the future of cloud native is serverless and we want to help you get there.</p>
         <div className={`${styles.paddingY} mt-4`}>
           <ul className="grid gap-y-32 gap-x-6 lg:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-20">
             {products.map((product) => (

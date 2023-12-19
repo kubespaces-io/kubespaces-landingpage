@@ -6,7 +6,7 @@ const Hero = () => {
       <div className='absolute inset-0 top-[100px] max-w-7xl mx-auto flex flex-row md:items-center items-start gap-5'>
         <div className={`${styles.padding} h-screen flex flex-col justify-start md:justify-center`}>
           <h1 className={`${styles.heroHeadText}`}>Production Ready <br />Cloud Environments <br />in Seconds.</h1>
-          <p className={`${styles.heroSubText} max-w-2xl`}>Kubespaces is democratising access to secure, scalable, highly-available cloud compute by transforming complex cloud industry mechanisms into plug-and-play solutions.</p>
+          <p className={`${styles.heroSubText} max-w-2xl`}>Kubespaces is democratizing access to secure, scalable, highly-available cloud compute by transforming complex cloud industry mechanisms into plug-and-play solutions.</p>
           <div className="flex flex-col xs:flex-row justify-start gap-6 mt-10">
               <button
                 type="button"

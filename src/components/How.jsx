@@ -8,7 +8,7 @@ const How = () => {
       <div className="">
         <h2 className={`${styles.sectionHeadText} w-full text-center text-white`}>How it works.</h2>
         <div className={`${styles.paddingY}`}>
-          <p className={`${styles.sectionSubText} text-white text-center`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quae optio consectetur necessitatibus sed commodi veniam sequi quaerat velit, illum, exercitationem quas pariatur hic voluptate fugit itaque beatae quia earum.</p>
+          <p className={`${styles.sectionSubText} text-white text-center`}>Focus on what matters: give your developers an unencumbered experience and a safe environment to deploy their applications, from testing to production.<p></p> Sign up and be on your way to deploy and manage applications at scale.</p>
         </div>
       </div>
     </>

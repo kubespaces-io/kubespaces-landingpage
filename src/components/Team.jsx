@@ -32,7 +32,7 @@ const Team = () => {
   return (
     <div className="mt-12">
       <h2 className={`${styles.heroSubText} text-primary text-bold uppercase`}>Who we are.</h2>
-      <p className={`${styles.sectionSubText} mt-4 font-normal`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam quae optio consectetur necessitatibus sed commodi veniam sequi quaerat velit, illum, exercitationem quas pariatur hic voluptate fugit itaque beatae quia earum.</p>
+      <p className={`${styles.sectionSubText} mt-4 font-normal`}>We think devlopers should be free from the chains of infrastructure and focus on what matters: their code. We want to simplify the developer experience of adopting cloud native technologies by providing a seamless, turn-key solution that allows developers to focus on their code and not the infrastructure. We believe that the future of cloud native is serverless and we want to help you get there.</p>
       <div className={`${styles.paddingX} grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-6 mt-12`}>
         {team.map((user, index) => (
           <TeamCard

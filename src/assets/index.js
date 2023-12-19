@@ -24,6 +24,8 @@ import alessandro from './alessandro.png';
 import fabrizio from './fabrizio.jpeg';
 import meg from './meg.jpeg';
 import orlando from './orlando.jpeg';
+// form
+import success from './success.png';
 
 export {
     miro,
@@ -45,5 +47,6 @@ export {
     fabrizio,
     githubWhite,
     producthuntWhite,
-    linkedinWhite
+    linkedinWhite,
+    success
 }

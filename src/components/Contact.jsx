@@ -6,6 +6,7 @@ import {
 } from 'react-google-recaptcha-v3';
 
 import { styles } from '../styles';
+import { success } from '../assets'
 import { SectionWrapper } from '../hoc';
 
 const Contact = () => {
@@ -80,9 +81,16 @@ const Contact = () => {
     <GoogleReCaptchaProvider reCaptchaKey="6LewUTApAAAAACh_SE7Tt-jBhhj8BqefgT90hUIA">
       <div className="mb:4 md:mb-12 xl:mt-12 overflow-hidden w-full md:w-[50%]">
         <div className='p-8'>
-          <h3 className={`${styles.sectionHeadText} text-white`}>Contact.</h3>
+          <h3 className={`${styles.sectionHeadText}`}>Contact.</h3>
           <p className={styles.sectionSubText}>Get in touch.</p>
-          <form
+          {showSuccessMessage ? (
+              <div className="mt-12 p-10 border-2 border-tertiary bg-white rounded-xl flex flex-col gap-8">
+                <img className="w-[250px]" src={success} alt="Success" />
+                <h3 className={`${styles.sectionHeadText}`}>Thank you for your message!</h3>
+                  <p className={`${styles.sectionSubText}`}>We will get back to you as soon as possible.</p>
+              </div>
+            ) : (
+              <form
             ref={formRef}
             onSubmit={handleSubmit}
             className='mt-12 p-10 border-2 border-tertiary bg-white rounded-xl flex flex-col gap-8'>
@@ -130,12 +138,6 @@ const Contact = () => {
             <WithGoogleRecaptchaExample
               handleRecaptchaChange={handleRecaptchaChange}
             />
-            {showSuccessMessage && (
-              <div className="bg-green-100 my-4 p-2 rounded-md">
-                Thank you for your message! We will get back to you as soon as possible.
-              </div>
-            )}
-
             <button
               type="submit"
               disabled={!isRecaptchaVerified || loading || showSuccessMessage}
@@ -143,6 +145,7 @@ const Contact = () => {
               {loading ? "Sending..." : "Send"}
             </button>
           </form>
+            )}
         </div>
       </div>
     </GoogleReCaptchaProvider>

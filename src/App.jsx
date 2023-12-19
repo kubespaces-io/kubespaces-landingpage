@@ -16,9 +16,7 @@ const App = () => {
       </div>
       <Pricing />
       <About />
-      <div className="bg-primary w-full">
-        <Contact />
-      </div>
+      <Contact />
       <Footer />
     </BrowserRouter>
   )

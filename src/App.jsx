@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { NavBar, Hero, Clients, Benefits, Pricing, How, About, Footer } from './components'
+import { NavBar, Hero, Clients, Benefits, Pricing, How, About, Contact, Footer } from './components'
 
 const App = () => {
   return (
@@ -16,6 +16,9 @@ const App = () => {
       </div>
       <Pricing />
       <About />
+      <div className="bg-primary w-full">
+        <Contact />
+      </div>
       <Footer />
     </BrowserRouter>
   )

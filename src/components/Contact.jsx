@@ -13,7 +13,7 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
   })
   const [loading, setLoading] = useState(false);
   const [recaptchaValue, setRecaptchaValue] = useState(null);
@@ -130,7 +130,7 @@ const Contact = () => {
             <WithGoogleRecaptchaExample
               handleRecaptchaChange={handleRecaptchaChange}
             />
-            {!showSuccessMessage && (
+            {showSuccessMessage && (
               <div className="bg-green-100 my-4 p-2 rounded-md">
                 Thank you for your message! We will get back to you as soon as possible.
               </div>
@@ -168,7 +168,7 @@ class ReCaptchaComponent extends React.Component {
   render() {
     return (
       <div className="m-2 flex gap-2">
-        <input id="captcha" className="appearance-none w-4 h-4 border-2 border-gray-200 rounded-sm bg-gray-100 mt-1 shrink-0 checked:bg-primary checked:border-2 checked:border-gray-200" type="checkbox" onChange={this.handleVerifyRecaptcha} />
+        <input id="captcha" className="appearance-none w-4 h-4 border-2 border-gray-200 rounded-sm bg-gray-100 mt-1 shrink-0 checked:bg-primary checked:border-2 checked:border-gray-200" type="checkbox" name="checkbox" onChange={this.handleVerifyRecaptcha} />
         <label htmlFor="captcha" className="ml-1 mt-1 text-[10px] text-primary"> Please verify you are a human.</label>
       </div>
     );

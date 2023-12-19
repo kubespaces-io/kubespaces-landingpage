@@ -20,6 +20,7 @@ const Navbar = () => {
             onClick={() => {
               setActive("");
               window.scrollTo(0, 0);
+              setToggle(false)
             }}>
             <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
             <p className="text-primary text-[18px] font-bold cursor-pointer md:block hidden">Kubespaces</p>
@@ -33,10 +34,10 @@ const Navbar = () => {
                   } hover:underline underline-offset-8 decoration-2 text-[12px] text-primary cursor-pointer`}
                 key={link.id}
                 onClick={() => setActive(link.title)}>
-                  {link.url ?
-                    <a href={`${link.url}`} target="_blank">{link.title}</a>
-                  :  <a href={`#${link.id}`}>{link.title}</a>
-                  }
+                {link.url ?
+                  <a href={`${link.url}`} target="_blank">{link.title}</a>
+                  : <a href={`#${link.id}`}>{link.title}</a>
+                }
               </li>
             ))}
           </ul>
@@ -62,32 +63,34 @@ const Navbar = () => {
                   }}>
                   {link.url ?
                     <a href={`${link.url}`} target="_blank">{link.title}</a>
-                  :  <a href={`#${link.id}`}>{link.title}</a>
+                    : <a href={`#${link.id}`}>{link.title}</a>
                   }
                 </li>
               ))}
             </ul>
             <div className="md:hidden flex justify-between gap-2">
-              <button
-                type="button"
+              <a
+                href="#contact"
+                onClick={() => setToggle(false)}
                 className='bg-white hover:bg-primary border border-primary py-2 px-4 outline-none text-primary hover:text-white font-semibold text-[12px] rounded-md w-fit'>Sign In
-              </button>
-              <button
-                type="button"
+              </a>
+              <a
+                href="#contact"
+                onClick={() => setToggle(false)}
                 className='bg-primary hover:bg-white border border-primary py-2 px-4 outline-none text-white hover:text-primary font-semibold text-[12px] rounded-md w-fit'>Try for Free
-              </button>
+              </a>
             </div>
           </div>
         </div>
         <div className="hidden md:flex flex-auto justify-end gap-2">
-          <button
-            type="button"
+          <a
+            href="#contact"
             className='bg-white hover:bg-primary border border-primary py-2 px-4 outline-none text-primary hover:text-white font-semibold text-[12px] rounded-md w-fit'>Sign In
-          </button>
-          <button
-            type="button"
+          </a>
+          <a
+            href="#contact"
             className='bg-primary hover:bg-white border border-primary py-2 px-4 outline-none text-white hover:text-primary font-semibold text-[12px] rounded-md w-fit'>Try for Free
-          </button>
+          </a>
         </div>
       </div>
 

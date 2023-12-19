@@ -33,7 +33,10 @@ const Navbar = () => {
                   } hover:underline underline-offset-8 decoration-2 text-[12px] text-primary cursor-pointer`}
                 key={link.id}
                 onClick={() => setActive(link.title)}>
-                <a href={`#${link.id}`}>{link.title}</a>
+                  {link.url ?
+                    <a href={`${link.url}`} target="_blank">{link.title}</a>
+                  :  <a href={`#${link.id}`}>{link.title}</a>
+                  }
               </li>
             ))}
           </ul>

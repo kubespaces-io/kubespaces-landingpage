@@ -29,8 +29,9 @@ const navLinks = [
         title: "Pricing",
     },
     {
-        id: "community",
-        title: "Community",
+        id: "docs",
+        title: "Docs",
+        url: "https://docs.kubespaces.io"
     },
     {
         id: "about",

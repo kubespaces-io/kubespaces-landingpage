@@ -18,6 +18,9 @@ import {
     logo
 } from '../assets'
 
+import { VitePluginRadar } from 'vite-plugin-radar'
+
+
 const navLinks = [
     {
         id: "how",
@@ -187,3 +190,13 @@ const team = [
 ]
 
 export { navLinks, navFooter, socials, benefits, clients, products, team };
+export default {
+    plugins: [
+      VitePluginRadar({
+        // Google Analytics tag injection
+        analytics: {
+          id: 'G-CWMKCEQTJL',
+        },
+      })
+    ],
+  }

@@ -172,7 +172,7 @@ const team = [
         name: "Fabrizio Marras",
         title: "CIO",
         image: fabrizio,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description: "I'm Fabrizio, experienced in steering projects from conception to successful realization, with a distinctive skill set that combines technical and creative domains."
     },
     {
         name: "Meg Stefouli",

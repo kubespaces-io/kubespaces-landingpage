@@ -79,7 +79,7 @@ const WaitingList = () => {
         <GoogleReCaptchaProvider reCaptchaKey="6LewUTApAAAAACh_SE7Tt-jBhhj8BqefgT90hUIA">
             {/* <div className='relative w-full mx-auto bg-hero-pattern bg-no-repeat bg-contain bg-right-bottom'> */}
             <div className="mb:4 md:mb-12 xl:mt-12 mx-auto overflow-hidden w-full">
-                <div className='p-8 text-center'>
+                <div className='md:p-8 py-8 text-center'>
                     <h3 className={`${styles.sectionHeadText} text-white`}>Join our Waiting List.</h3>
                     <p className={styles.sectionSubText}>Get in touch to join our waiting list and receive all the news about Kubernetes and our Products.</p>
                     {showSuccessMessage ? (

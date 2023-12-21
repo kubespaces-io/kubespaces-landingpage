@@ -81,7 +81,7 @@ const Contact = () => {
     <GoogleReCaptchaProvider reCaptchaKey="6LewUTApAAAAACh_SE7Tt-jBhhj8BqefgT90hUIA">
       {/* <div className='relative w-full mx-auto bg-hero-pattern bg-no-repeat bg-contain bg-right-bottom'> */}
         <div className="mb:4 md:mb-12 xl:mt-12 overflow-hidden w-full md:w-[50%]">
-          <div className='p-8'>
+          <div className='md:p-8 py-8'>
             <h3 className={`${styles.sectionHeadText} text-white`}>Contact.</h3>
             <p className={styles.sectionSubText}>Get in touch.</p>
             {showSuccessMessage ? (

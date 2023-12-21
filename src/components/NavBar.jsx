@@ -70,12 +70,12 @@ const Navbar = () => {
             </ul>
             <div className="md:hidden flex justify-between gap-2">
               <a
-                href="#contact"
+                href="#waiting-list"
                 onClick={() => setToggle(false)}
                 className='bg-white hover:bg-primary border border-primary py-2 px-4 outline-none text-primary hover:text-white font-semibold text-[12px] rounded-md w-fit'>Sign In
               </a>
               <a
-                href="#contact"
+                href="#waiting-list"
                 onClick={() => setToggle(false)}
                 className='bg-primary hover:bg-white border border-primary py-2 px-4 outline-none text-white hover:text-primary font-semibold text-[12px] rounded-md w-fit'>Try for Free
               </a>
@@ -84,11 +84,11 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex flex-auto justify-end gap-2">
           <a
-            href="#contact"
+            href="#waiting-list"
             className='bg-white hover:bg-primary border border-primary py-2 px-4 outline-none text-primary hover:text-white font-semibold text-[12px] rounded-md w-fit'>Sign In
           </a>
           <a
-            href="#contact"
+            href="#waiting-list"
             className='bg-primary hover:bg-white border border-primary py-2 px-4 outline-none text-white hover:text-primary font-semibold text-[12px] rounded-md w-fit'>Try for Free
           </a>
         </div>

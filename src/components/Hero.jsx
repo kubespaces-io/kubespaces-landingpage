@@ -13,14 +13,14 @@ const Hero = () => {
                 className='bg-primary hover:bg-white border border-primary py-2 px-8 outline-none text-white hover:text-primary font-semibold text-[18px] rounded-md xs:w-fit w-full'>Talk to us
               </a>
               <a
-                href="#contact"
+                href="#waiting-list"
                 className='bg-white hover:bg-primary border border-primary py-2 px-8 outline-none text-primary hover:text-white font-semibold text-[18px] rounded-md xs:w-fit w-full'>Try for Free
               </a>
             </div>
         </div>
       </div>
       <div className="absolute bottom-10 w-full flex justify-center items-center">
-        <a href="#clients">
+        <a href="#waiting-list">
           <div className="relative w-[20px] h-[44px] rounded-3xl border-2 border-primary opacity-20 flex justify-center items-start p-1">
             <div
               className="w-2 h-2 rounded-full bg-primary mb-1 animateUpDown"

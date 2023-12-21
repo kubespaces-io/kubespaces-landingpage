@@ -6,6 +6,7 @@ import Pricing from './Pricing';
 import How from './How';
 import About from './About';
 import Contact from './Contact';
+import WaitingList from './WaitingList';
 import Footer from './Footer';
 
 export {
@@ -17,5 +18,6 @@ export {
     How,
     About,
     Contact,
+    WaitingList,
     Footer
 }

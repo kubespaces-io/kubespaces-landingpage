@@ -1,15 +1,16 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { NavBar, Hero, Clients, Benefits, Pricing, How, About, Contact, Footer } from './components'
+import { NavBar, Hero, Clients, Benefits, Pricing, How, About, Contact, WaitingList, Footer } from './components'
 
 const App = () => {
   return (
     <BrowserRouter>
       <NavBar />
       <Hero />
-      {/* <div className="bg-secondary w-full">
-        <Clients />
-      </div> */}
+      <div className="bg-primary w-full">
+        {/* <Clients /> */}
+        <WaitingList />
+      </div>
       <Benefits />
       <div className="bg-primary w-full">
         <How />

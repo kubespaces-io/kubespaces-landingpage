@@ -178,7 +178,7 @@ const team = [
         name: "Meg Stefouli",
         title: "CPO",
         image: meg,
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description: "I am Meg, a forward-thinking manager with extensive experience in stakeholder coordination, event organization and logistics planner."
     },
     {
         name: "Orlando Hutchings",

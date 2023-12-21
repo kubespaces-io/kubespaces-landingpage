@@ -6,6 +6,7 @@ import close from './close.svg';
 import logoWhite from './Logo-white.svg';
 import githubWhite from './github-white.svg';
 import linkedinWhite from './linkedin-white.svg';
+import twitterWhite from './twitter-white.png';
 import producthuntWhite from './producthunt-white.png';
 
 // clients
@@ -48,5 +49,6 @@ export {
     githubWhite,
     producthuntWhite,
     linkedinWhite,
+    twitterWhite,
     success
 }

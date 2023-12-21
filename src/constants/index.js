@@ -14,6 +14,7 @@ import {
     meg,
     githubWhite,
     linkedinWhite,
+    twitterWhite,
     producthuntWhite,
     logo
 } from '../assets'
@@ -49,6 +50,11 @@ const socials = [
         title: "linkedin",
         icon: linkedinWhite,
         url: "https://www.linkedin.com/company/kubespaces-io"
+    },
+    {
+        title: "twitter",
+        icon: twitterWhite,
+        url: "https://www.x.com/kubespaces"
     },
     {
         title: "producthunt",

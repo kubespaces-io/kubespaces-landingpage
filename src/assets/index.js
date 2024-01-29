@@ -22,7 +22,6 @@ import cloud from './benefits/cloud.png';
 import serverless from './benefits/serverless.png';
 // team
 import alessandro from './alessandro.png';
-import fabrizio from './fabrizio.jpeg';
 import meg from './meg.jpeg';
 import orlando from './orlando.jpeg';
 // form
@@ -45,7 +44,6 @@ export {
     alessandro,
     meg,
     orlando,
-    fabrizio,
     githubWhite,
     producthuntWhite,
     linkedinWhite,

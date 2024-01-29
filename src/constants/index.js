@@ -9,7 +9,6 @@ import {
     cloud,
     serverless,
     alessandro,
-    fabrizio,
     orlando,
     meg,
     githubWhite,
@@ -173,12 +172,6 @@ const team = [
         title: "CEO",
         image: alessandro,
         description: "I'm Alessandro, a software engineer and developer advocate living in Amsterdam."
-    },
-    {
-        name: "Fabrizio Marras",
-        title: "CIO",
-        image: fabrizio,
-        description: "I'm Fabrizio, experienced in steering projects from conception to successful realization, with a distinctive skill set that combines technical and creative domains."
     },
     {
         name: "Meg Stefouli",

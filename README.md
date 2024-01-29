@@ -1,4 +1,4 @@
-# React + Vite
+# Kubespaces Landing Page
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/de91096b-1456-4b14-ba09-fda9391095e2/deploy-status)](https://app.netlify.com/sites/kubespaces/deploys)
 
@@ -8,3 +8,16 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Local Development
+
+Clone this repo and run the following commands:
+
+```bash
+npm install
+npm run dev
+```
+
+## Deploy
+
+Push to the `main` branch and Netlify will automatically deploy the site.

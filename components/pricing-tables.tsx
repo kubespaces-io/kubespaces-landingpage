@@ -14,7 +14,7 @@ export default function PricingTables() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
             <h1 className="h1 mb-4" data-aos="fade-up">Simple, transparent pricing</h1>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Get the Open PRO plan that fits your needs at a special introductory price.</p>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Get the Kubespaces plan that fits your needs at a special introductory price.</p>
           </div>
 
           {/* Pricing tables */}

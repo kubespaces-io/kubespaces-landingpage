@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Features - Open PRO',
+  title: 'Features - Kubespaces',
   description: 'Page description',
 }
 

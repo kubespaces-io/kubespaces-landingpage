@@ -32,21 +32,21 @@ export default function TestimonialsCarousel() {
     {
       img: UserImage01,
       alt: 'Testimonial 01',
-      quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+      quote: '“I like the clusterless approach! I wonder why no one thought about it before. The execution of Kubespaces on the idea is impeccable.“',
       name: 'Darya Semenova',
-      role: 'Backend Developer'
+      role: 'Frontend Developer'
     },
     {
       img: UserImage02,
       alt: 'Testimonial 02',
-      quote: '“ Not only in my career but in education as well, I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more.“',
+      quote: '“Finally the power of Kubernetes API without the hassle of managing infrastructure“',
       name: 'Greg Sebastian',
-      role: 'Head of Design'
+      role: 'Platform Engineer'
     },
     {
       img: UserImage03,
       alt: 'Testimonial 03',
-      quote: '“ I feel grateful that Open PRO pushed me to expand my horizons and strive to accomplish more, not only in my career but in education as well.“',
+      quote: '“All our developers moved from bespoke, ad-hoc managed clusters to Kubespaces, and the productivity gains are enormous! We are glad to have it integrated into our CI/CD process so easily“',
       name: 'Dominik Prasad',
       role: 'Backend Lead'
     }
@@ -77,8 +77,8 @@ export default function TestimonialsCarousel() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos-id-testimonialcar>
-            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-testimonialcar]">Join the Open PRO team</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonialcar]">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus in ornare.</p>
+            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-testimonialcar]">Join the Kubespaces team</h2>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-testimonialcar]">We are a small, focused team of founders, and we're always open to discuss how you want to collaborate or join us.</p>
           </div>
 
           {/* Check list */}
@@ -103,7 +103,7 @@ export default function TestimonialsCarousel() {
                   <circle className="fill-current text-green-500" cx="12" cy="12" r="12" />
                   <path className="fill-current text-white" d="M16.28 8.28l-6.292 6.294-2.293-2.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l7-7A1 1 0 0016.28 8.28z" />
                 </svg>
-                <span>5 Weeks Paid Vacation</span>
+                <span>Unlimited Vacation</span>
               </li>
               <li className="flex items-center mx-3 my-2" data-aos="fade-up" data-aos-delay="700" data-aos-anchor="[data-aos-id-testimonialcar]">
                 <svg className="w-6 h-6 mr-3 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

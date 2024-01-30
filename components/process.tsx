@@ -6,8 +6,8 @@ export default function Process() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4" data-aos="fade-up">Built exclusively for you</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h2 className="h2 mb-4" data-aos="fade-up">No clusters, no pain</h2>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Focus on what matters: your developers. Provide them the best tools with zero-touch infrastructure.</p>
           </div>
 
           {/* Items */}
@@ -22,7 +22,7 @@ export default function Process() {
                 <path className="stroke-current text-purple-100" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2"><span className="text-gray-400">1</span>. Acquisition</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">Deploy tenants in multiple clouds and regions with few clicks or a single API call.</p>
             </div>
 
             {/* 2nd item */}
@@ -36,7 +36,7 @@ export default function Process() {
                 </g>
               </svg>
               <h4 className="h4 mb-2"><span className="text-gray-400">2</span>. Activation</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">Your developers are immediately productive, being able to deploy, monitor and expose their microservices applications easily and reliably.</p>
             </div>
 
             {/* 3rd item */}
@@ -47,7 +47,7 @@ export default function Process() {
                 <path className="stroke-current text-purple-100" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2"><span className="text-gray-400">3</span>. Retention</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">Scale as you grow, with a no-nonsense pricing based on consumption, and providing all your developers with the same platform.</p>
             </div>
 
           </div>

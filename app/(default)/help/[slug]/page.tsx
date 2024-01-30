@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { allHelp } from '.contentlayer/generated'
+import { allHelp } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
 import PostDate from '@/components/post-date'
 import Sidebar from './help-sidebar'

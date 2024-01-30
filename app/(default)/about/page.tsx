@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About us - Open PRO',
-  description: 'Page description',
+  title: 'Kubespaces',
+  description: 'Namespace-as-a-service platform for Kubernetes',
 }
 
 import HeroAbout from '@/components/hero-about'

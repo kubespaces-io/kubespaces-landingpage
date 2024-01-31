@@ -13,8 +13,8 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
-    <Logo className="w-8 h-8 fill-current text-purple-600"/>
-</Link>
+              <Logo className="w-8 h-8 fill-current text-purple-600" />
+            </Link>
           </div>
 
           {/* Desktop navigation */}

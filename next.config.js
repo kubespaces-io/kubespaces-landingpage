@@ -1,10 +1,7 @@
-const { withContentlayer } = require('next-contentlayer')
+const { withContentlayer } = require('next-contentlayer');
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = withContentlayer(nextConfig)
-module.exports = {
+const nextConfig = {
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -14,3 +11,5 @@ module.exports = {
     return config;
   },
 };
+
+module.exports = withContentlayer(nextConfig);

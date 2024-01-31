@@ -136,7 +136,7 @@ export default function Tabs() {
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                       <h4 className="h4 mb-2">Easy to start, optimize and scale</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..</p>
+                      <p className="text-lg text-gray-400">Our turn-key solution removes infrastructure hassles, allowing developers to focus on crafting code. Embrace cloud-native technology effortlessly, and with our commitment to a serverless approach, the future of innovation is at your fingertips. Start coding, not configuring, and scale seamlessly into the cloud-native future.</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                         <span className="text-sm">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -165,7 +165,7 @@ export default function Tabs() {
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Optimize and scale, easy to start</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <p className="text-lg text-gray-400">User-friendly experience for incorporating cloud services. By adopting the popular Kubernetes APIs, it's easy to get started with Kubespaces.</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                         <span className="text-sm">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -193,8 +193,8 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={HeroImage01} width={516} height={387} alt="Tabs 02" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
-                      <h4 className="h4 mb-2">Easy to start, optimize and scale</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <h4 className="h4 mb-2">No clusters, no pain</h4>
+                      <p className="text-lg text-gray-400">Focus on what matters: your code and your customers, leave the nitty-gritty business of infrastructure to us.</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                         <span className="text-sm">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -222,8 +222,8 @@ export default function Tabs() {
                       <Image className="w-full h-full object-cover" src={TabsImage01} width={516} height={387} alt="Tabs 01" />
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
-                      <h4 className="h4 mb-2">Optimize and scale, easy to start</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                      <h4 className="h4 mb-2">From developers, for developers</h4>
+                      <p className="text-lg text-gray-400">Our service was born to solve our own needs, and we're happy to share it with the community.</p>
                       <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                         <span className="text-sm">Learn more</span>
                         <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

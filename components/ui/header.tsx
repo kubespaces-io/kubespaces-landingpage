@@ -42,7 +42,7 @@ export default function Header() {
                 </Link>
               </li>
               {/* 1st level: hover */}
-              <Dropdown title="Support">
+              <Dropdown title="Learn More">
                 {/* 2nd level: hover */}
                 <li>
                   <Link href="/contact" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
@@ -52,11 +52,6 @@ export default function Header() {
                 <li>
                   <Link href="/help/frequently-asked-questions" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
                     Help center
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/404" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
-                    404
                   </Link>
                 </li>
               </Dropdown>

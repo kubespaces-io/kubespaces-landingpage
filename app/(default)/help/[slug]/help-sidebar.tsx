@@ -8,21 +8,22 @@ export default function HelpSidebar() {
   const pathname = usePathname()
 
   const links = [
-    {
-      name: 'Frequently Asked Questions',
-      href: '/help/frequently-asked-questions'
-    },
+
     {
       name: 'What is Kubespaces',
-      href: '/help/what-is-open-pro'
+      href: '/help/what-is-kubespaces'
+    },
+    {
+      name: 'Get started',
+      href: '/help/get-started'
     },
     {
       name: 'Kubespaces features',
       href: '/help/open-pro-plans-features'
     },
     {
-      name: 'Get started',
-      href: '/help/get-started'
+      name: 'Frequently Asked Questions',
+      href: '/help/frequently-asked-questions'
     },
     {
       name: 'Payments FAQ’s',

@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Contact us - Kubespaces',
-  description: 'Page description',
+  description: 'Contact us for any questions or suggestions',
 }
 
 import CtaContact from '@/components/cta-contact'
@@ -15,7 +15,7 @@ export default function Contact() {
             {/* Page header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h1 mb-4" data-aos="fade-up">How can we help you?</h1>
-              <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">We have custom plans to power your business. Tell us your needs, and we'll contact you shortly.</p>
+              <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">We are making Kubespaces.io so it will fit your use cases; please let us know which direction you would like to see it go in. We will be in touch soon.</p>
             </div>
 
             {/* Contact form */}
@@ -43,16 +43,7 @@ export default function Contact() {
                   <input id="subject" type="text" className="form-input w-full text-gray-300" placeholder="How can we help you?" required />
                 </div>
               </div>
-              <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="country">Country</label>
-                  <select id="country" className="form-select w-full text-gray-300">
-                    <option>United States</option>
-                    <option>United Kingdom</option>
-                    <option>Germany</option>
-                  </select>
-                </div>
-              </div>
+
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="message">Message</label>

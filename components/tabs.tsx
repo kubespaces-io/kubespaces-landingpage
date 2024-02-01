@@ -28,7 +28,7 @@ export default function Tabs() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
-            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Integrated workflow designed for product teams</h2>
+            <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">Your apps, our infrastructure</h2>
             <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">Kubespaces is democratizing access to secure, scalable, highly-available cloud compute by transforming complex cloud industry mechanisms into plug-and-play solutions.
 .</p>
           </div>

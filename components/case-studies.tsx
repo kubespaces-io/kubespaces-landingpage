@@ -12,7 +12,7 @@ export default function CaseStudies() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Integrated workflow designed for product teams</h2>
+            <h2 className="h2 mb-4">Your apps, our infrastructure</h2>
             <p className="text-xl text-gray-400">Kubespaces is democratizing access to secure, scalable, highly-available cloud compute by transforming complex cloud industry mechanisms into plug-and-play solutions.
 </p>
           </div>

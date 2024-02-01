@@ -7,7 +7,7 @@ import PostItem from '@/components/post-item'
 
 export const metadata = {
   title: 'Blog - Kubespaces',
-  description: 'Page description',
+  description: 'Kubespaces Blog',
 }
 
 import Newsletter from '@/components/newsletter'
@@ -30,7 +30,7 @@ export default function Blog() {
 
             {/*  Page header */}
             <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-              <h1 className="h1" data-aos="fade-up">Refreshing news for developers and designers</h1>
+              <h1 className="h1" data-aos="fade-up">Refreshing news for developers and engineers</h1>
             </div>
 
             {/*  Featured article */}

@@ -21,8 +21,9 @@ export default function Newsletter() {
         },
         body: JSON.stringify({ email }),
       });
-
+      console.log(response);
       const data = await response.json();
+      console.log(data);
 
       if (data.error) {
         setMessage('Error: ' + data.error);

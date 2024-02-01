@@ -3,17 +3,15 @@
 // export async function GET(request: Request) {
 //   return new Response('Hello, Next.js!')
 // }
-import type { NextApiRequest, NextApiResponse } from 'next'
+import type { NextRequest, NextResponse } from 'next/server'
 
 type ResponseData = {
   message: string
-}
+};
 
-export async function POST( req: NextApiRequest, res: NextApiResponse<ResponseData>) {
-    console.log(req.body);
-    // if (!email) {
-    //   return res.status(400).json({ error: 'Email is required' });
-    // }
+export async function POST( req: NextRequest, res: NextResponse<ResponseData>) {
+  const { email } = await req.json();
+  console.log("fregraccia",email);
   
     try {
         const API_KEY = process.env.MAILCHIMP_API_KEY
@@ -31,15 +29,12 @@ export async function POST( req: NextApiRequest, res: NextApiResponse<ResponseDa
           status: 'subscribed',
         }),
       });
-  
-      if (!response.ok) {
-        const errorData = await response.json();
-        return res.status(response.status).json({ error: errorData.title || 'Failed to subscribe' });
-      }
-  
-      return res.status(201).json({ error: '' });
-    } catch (error) {
-      return res.status(500).json({ error: error.message || error.toString() });
-    }
-  };
-  
+
+      console.log(response);
+      return response;
+
+
+  } catch (error) {
+    console.log(error);
+    }  
+  }

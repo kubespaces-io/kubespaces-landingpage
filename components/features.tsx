@@ -74,7 +74,7 @@ export default function Features() {
                   <div className="flex items-start mt-8">
                     <Image className="rounded-full shrink-0 mr-4" src={FeatAvatar} width={40} height={40} alt="Features avatar" />
                     <div>
-                      <blockquote className="text-gray-400 italic m-0 mb-3">"We spent years building broken platform, with Kubespaces we are there already and better, safer"</blockquote>
+                      <blockquote className="text-gray-400 italic m-0 mb-3">"We spent years building broken platform, with Kubespaces we are there already and better, safer and with less developer friction."</blockquote>
                       <div className="text-gray-700 font-medium">
                         <cite className="text-gray-200 not-italic">— Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
                       </div>

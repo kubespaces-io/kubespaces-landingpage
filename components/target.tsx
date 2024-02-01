@@ -9,7 +9,7 @@ export default function Target() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2" data-aos="fade-up">From the big picture to every tiny detail, we got you covered.</h2>
+            <h2 className="h2" data-aos="fade-up">How it works...</h2>
           </div>
 
           {/* Items */}
@@ -26,18 +26,18 @@ export default function Target() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">Be the change you want to see</div>
+                  <div className="font-architects-daughter text-xl text-purple-600 mb-2" data-aos="fade-left" data-aos-anchor="[data-aos-id-target]">Cloud native apps</div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2"><span className="text-purple-600">.</span> For developers</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-lg text-gray-400">Deploy with confidence over multiple clouds and locations, using the tried-and-true Kubernetes platform APIs.</p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
-                    <h4 className="h4 mb-2"><span className="text-teal-500">.</span> For designers</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4 className="h4 mb-2"><span className="text-teal-500">.</span> For platform engineers</h4>
+                    <p className="text-lg text-gray-400">Build upon our services your next platform; integrate with CI/CD, monitoring and security tools of your choice..</p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2"><span className="text-pink-500">.</span> For teams</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-lg text-gray-400">Collaborate with your entire team, share namespaces and environments with your organization.</p>
                   </div>
                 </div>
               </div>

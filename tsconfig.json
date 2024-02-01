@@ -31,6 +31,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
-, "app/api/subscribe.js"  ],
+, "app/api/subscribe/route.ts"  ],
   "exclude": ["node_modules"]
 }

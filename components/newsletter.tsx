@@ -9,7 +9,7 @@ export default function Newsletter() {
   const subscribe = async (e) => {
     e.preventDefault();
     setMessage('Subscribing...');
-
+    console.log(JSON.stringify({ email }));
     // Replace this URL with your own API route or serverless function that proxies the request to Mailchimp
     const subscribeUrl = '/api/subscribe'; 
 

@@ -29,7 +29,7 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— We spent years building broken platform, with Kubespaces we are there already and better, safer.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">— We spent years building broken platform, with Kubespaces we are there already and better, safer and with less developer friction.</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Anastasia Dan</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
               </div>

@@ -33,10 +33,10 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Kubespaces.io</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consulting</Link>
+                    <Link href="/consulting" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consulting</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Private Cloud</Link>
+                    <Link href="/private-cloud" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Private Cloud</Link>
                   </li>
                 </ul>
               </div>

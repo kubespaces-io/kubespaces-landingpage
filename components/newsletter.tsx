@@ -6,7 +6,7 @@ export default function Newsletter() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const subscribe = async (e) => {
+  const subscribe = async (e:any) => {
     e.preventDefault();
     setMessage('Subscribing...');
     console.log(JSON.stringify({ email }));
@@ -21,15 +21,10 @@ export default function Newsletter() {
         },
         body: JSON.stringify({ email }),
       });
-      console.log(response);
-      const data = await response.json();
-      console.log(data);
-
-      if (data.error) {
-        setMessage('Error: ' + data.error);
-      } else {
-        setEmail('');
-        setMessage('Success! You are now subscribed.');
+      console.log("response:", response);
+      if (response.ok) {
+        setMessage('Subscribed!');
+        setEmail('')
       }
     } catch (error) {
       setMessage('An error occurred.');

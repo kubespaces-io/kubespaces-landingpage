@@ -6,11 +6,9 @@ type ResponseData = {
   message: string
 };
 
-sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
-
 export async function POST( req: NextRequest<ResponseData>, res: NextResponse<ResponseData>) {
     try {
-    console.log(req.body);
+      sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
       await sendgrid.send({
         to: "alessandro@kubespaces.io", // Ensure this is your email
         from: "alessandro@kubespaces.io", // Ensure this is a verified sender in SendGrid
@@ -19,7 +17,6 @@ export async function POST( req: NextRequest<ResponseData>, res: NextResponse<Re
         html: `Your HTML email content here...`,
       });
       // If email is sent successfully, send a 200 OK response
-      console.log(req);
       res.status(200).json({ message: "Email sent successfully" });
     } catch (error) {
       console.error(error);

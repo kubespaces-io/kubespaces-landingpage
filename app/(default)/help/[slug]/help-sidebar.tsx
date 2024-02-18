@@ -19,7 +19,7 @@ export default function HelpSidebar() {
     },
     {
       name: 'Kubespaces features',
-      href: '/help/open-pro-plans-features'
+      href: '/help/kubespaces-features'
     },
     {
       name: 'Frequently Asked Questions',

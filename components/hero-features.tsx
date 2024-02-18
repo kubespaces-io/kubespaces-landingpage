@@ -25,7 +25,7 @@ export default function HeroFeatures() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Namespaces for Everyone</h1>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Every feature in Kubespaces makes things easy to build, pleasant to create,
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Every feature in Kubespaces makes applications easy to build, pleasant to create,
                 and simple to manage.</p>
           </div>
           {/* Image */}

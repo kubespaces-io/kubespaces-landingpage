@@ -6,15 +6,14 @@ summary: 'An introduction to namespace-as-a-service.'
 author: 'Alessandro Vozza'
 authorImg: '/images/alessandro.png'
 tags:
-  - Product
+  - Introduction
   - Tutorials and articles
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum. Neque sodales ut etiam sit amet. [Ligula ullamcorper](https://cruip.com/) malesuada proin libero nunc consequat interdum varius. Quam pellentesque nec nam aliquam sem **et tortor consequat**. Pellentesque adipiscing commodo elit at imperdiet. Semper auctor neque vitae tempus quam pellentesque nec. Amet dictum sit amet justo donec enim diam. **Varius sit amet mattis vulputate enim** nulla aliquet porttitor. Odio pellentesque diam volutpat commodo sed. Elit sed vulputate mi sit amet mauris commodo quis imperdiet.
+Kubespaces is a Platform-as-a-service built on top of managed Kubernetes clusters, oriented at consuming Namespaces-as-a-service and tuned for a seamless developer experience. 
 
-> Greg Korshak, a journalist for the New York Times, reported that e-commerce audience will reach 380 million worldwide this year, comprising 250 dedicated fans and 215 occasional viewers. New York Times projected that the e-commerce industry would generate $905 million in revenue in 2020.
+Kubespaces was born from a real need experienced by its founders in their daily work at several large and small financial institutions and retail industry leaders, where they experienced how hard and complicated is to build a platform for enabling developers to be the most productive. What was needed was the namespace abstraction, not clusters or virtual machines.
 
-Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Eget sit amet tellus cras adipiscing enim eu. Neque aliquam vestibulum morbi blandit cursus risus.
 
 <Image
   alt="News inner"
@@ -24,31 +23,30 @@ Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Eget sit amet
   caption="Photo by Helena Lopes on Unsplash"
 />
 
-### Challenges of designing for masses
+### Challenges of adopting Kubernetes as a platform
 
-Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Auctor urna nunc id cursus metus aliquam eleifend. Arcu dictum varius duis at consectetur lorem donec massa sapien. Sed risus ultricies tristique nulla aliquet. Morbi tristique senectus et netus et, nibh nisl condimentum id venenatis a condimentum vitae sapien.
+Although Kubernetes is the de facto container orchestrator platform choice for the vast majority of organizations, and containerized applications are the standard way to package, distribute, and run modern applications, its quirks and idiosyncrasies make it a tough cookie to implement, secure, and turn into a coherent platform for developer productivity
 
 #### Here's what we discovered:
 
-*   Aenean sed adipiscing diam donec adipiscing tristique.
-*   Urna nunc id cursus metus aliquam eleifend.
-*   Arcu dictum varius duis at consectetur lorem donec massa sapien.
-*   Sed risus ultricies tristique nulla aliquet.
+* A huge amount of human and technical cost is poured into building internal platforms, often based on cloud providers' "managed" Kubernetes services. It takes a village to build a platform
+* The result of such efforts looks often like a "namespaces vending machine", or a platform that automates the provisioning of developer environments (which in Kubernetes are often identified as namespaces), following security standards.
+* Multi-tenancy (sharing of resources/clusters among multiple developers' teams) is hard and misunderstood
 
-Non nisi est sit amet facilisis magna etiam, aliquet porttitor lacus luctus accumsan tortor posuere. Habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat. Id velit ut tortor pretium viverra.
+For all the above, we identified the product market fit for a __namespace-as-a-service__, where the unit of computation is the containerized applications running in a namespace, and the user/developer is free to deploy and manage their workloads within the  
 
-Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio tristique senectus et netus et. Nibh nisl condimentum id venenatis:
+#### The need for a true Platform-as-a-service
 
-#### 1\. The quick brown fox jumped over the lazy dog.
+Most "platforms" are limited in scope, adopt non-industry-standard APIs, or have difficulty integrating; we decided early on (and we had the skills for it) to leverage the most popular API for containers and microservices orchestration, Kubernetes, to build a true PaaS where everything is abstracted but the most important and value-added piece: the namespace. It is there that developer productivity is finally unleashed and applications can live safely exposed and isolated from each other while keeping the possibility of intra-service/intra-tenant communication (ruled by standard Kubernetes NetworkPolicies).
 
-Sed risus ultricies tristique nulla aliquet morbi tristique senectus et netus et. Nibh nisl condimentum, id venenatis a condimentum vitae sapien.
+#### Multitenancy at its core
 
-#### 2\. The quick brown fox jumped over the lazy dog.
-
-Sed risus ultricies tristique nulla aliquet morbi tristique senectus et netus et. Nibh nisl condimentum, id venenatis a condimentum vitae sapien.
-
-Bibendum enim facilisis gravida neque convallis. Convallis posuere morbi leo urna molestie turpis in eu mi bibendum neque egestas. Est ante in [nibh mauris cursus mattis molestie](#0) aliquam purus sit amet luctus vulputate sapien nec sagittis aliquam enim nec dui nunc mattis enim, sit amet nulla facilisi morbi tempus iaculis urna id. Blandit cursus risus at ultrices mi tempus imperdiet nulla.
+Our platform is built from the ground up to be scalable and secure and is based on popular open source projects like vCluster, Istio, ArgoCD, and OPA. We introduce purposefully the concept of tenant (and hide away the very notion of clusters and underlying infrastructure) as a collection of namespaces; we offer ample choice of cloud providers (and on-premise data centers) and we abstract away the nitty-gritty details of running, upgrading and securing infrastructure: what we give you back is a collection of tenants and namespaces that you can peruse at your will, assign to your developers' teams and use to deploy hundreds and thousands of applications in multiple environments, from testing to production securely, quickly and easily.
 
 ### Conclusions
 
-Sapien nec sagittis aliquam malesuada orci sagittis eu volutpat odio facilisis mauris sit amet massa, consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo, purus viverra accumsan in nisl nisi scelerisque. Vel pharetra vel turpis nunc eget lorem malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Tempus quam pellentesque nec nam aliquam sem et tortor consequat.
+We believe in providing the tools to excel to the most developers possible, and we believe Kubespaces can be the answer to the years of efforts and resources poured into ad-hoc platform building; we want to build a product based on your feedback and suggestions but with a strong vision of what and how a PaaS should work. 
+
+### Where do we go from here
+
+We have a full roadmap in the works where we will account for even more use cases (private tenants, customer-provided tenants, and so on) and we can't wait to hear from you

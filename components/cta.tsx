@@ -6,12 +6,12 @@ export default function Cta() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16" data-aos-id-cta>
 
             {/* Section header */}
-            <h1 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-cta]">Ready to create better products?</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-cta]">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.</p>
+            <h1 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-cta]">Ready to harness the power of Kubernetes?</h1>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-cta]">We are working hard to launch a closed beta of our product, please get in touch with the form below.</p>
 
             {/* CTA button */}
             <div className="flex justify-center mb-8" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-cta]">
-              <a className="btn text-white bg-purple-600 hover:bg-purple-700" href="#0">Start free trial</a>
+              <a className="btn text-white bg-purple-600 hover:bg-purple-700" href="#0">Get in touch</a>
             </div>
 
             {/* Check list */}

@@ -30,11 +30,11 @@ export default function CaseStudies() {
               </a>
               <div className="grow flex flex-col h-full p-6 bg-gray-800">
                 <h3 className="h4 mb-2">
-                  <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">How to build anything</a>
+                  <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">How to build a PaaS</a>
                 </h3>
-                <p className="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                <p className="text-lg text-gray-400 grow">A true Platform-as-a-service should really take away the burden of infrastructure from their users, enabling faster time to market and a better user experience.</p>
                 <div>
-                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
+                  <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="/contact">
                     <span className="text-sm">Learn more</span>
                     <svg className="w-3 h-3 fill-current text-purple-400 shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
@@ -54,9 +54,9 @@ export default function CaseStudies() {
               </a>
               <div className="grow flex flex-col h-full p-6 bg-gray-800">
                 <h3 className="h4 mb-2">
-                  <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">How to build anything</a>
+                  <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="/contact">Expose securely</a>
                 </h3>
-                <p className="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                <p className="text-lg text-gray-400 grow">We manage all the routing thru standard cloud infrastructure, providing a simple ingress schema that is automatically secured with Let's Encrypt certificates.</p>
                 <div>
                   <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                     <span className="text-sm">Learn more</span>
@@ -78,9 +78,9 @@ export default function CaseStudies() {
               </a>
               <div className="grow flex flex-col h-full p-6 bg-gray-800">
                 <h3 className="h4 mb-2">
-                  <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">How to build anything</a>
+                  <a className="hover:text-gray-100 transition duration-150 ease-in-out" href="#0">Simple, transparent pricing</a>
                 </h3>
-                <p className="text-lg text-gray-400 grow">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                <p className="text-lg text-gray-400 grow">Pay for the resources you need, not the developers you onboard. We want Kubespaces to be a surprise, for all the good reasons, not for a crazy monthly bill.</p>
                 <div>
                   <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                     <span className="text-sm">Learn more</span>

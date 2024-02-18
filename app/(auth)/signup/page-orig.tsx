@@ -17,7 +17,7 @@ export default function SignUp() {
           </div>
 
           {/* Form */}
-          {/* <div className="max-w-sm mx-auto">
+          <div className="max-w-sm mx-auto">
             <form>
               <div className="flex flex-wrap -mx-3">
                 <div className="w-full px-3">
@@ -73,7 +73,7 @@ export default function SignUp() {
             <div className="text-gray-400 text-center mt-6">
               Already using Kubespaces? <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
             </div>
-          </div> */}
+          </div>
 
         </div>
       </div>

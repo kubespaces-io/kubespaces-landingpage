@@ -31,6 +31,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
-, "app/api/subscribe/route.ts"  ],
+, "app/api/subscribe/route.ts", "app/api/sendgrid/route.ts-broken"  ],
   "exclude": ["node_modules"]
 }

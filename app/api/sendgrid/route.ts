@@ -1,18 +1,25 @@
 import sendgrid from "@sendgrid/mail";
+import { log } from "console";
+import type { NextRequest, NextResponse } from 'next/server'
 
-// Assuming SENDGRID_API_KEY is set in your environment variables
+type ResponseData = {
+  message: string
+};
+
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY);
 
-// Correctly export the API route handler
-export async function POST(req, res) {
+export async function POST( req: NextRequest<ResponseData>, res: NextResponse<ResponseData>) {
     try {
+    console.log(req.body);
       await sendgrid.send({
         to: "alessandro@kubespaces.io", // Ensure this is your email
         from: "alessandro@kubespaces.io", // Ensure this is a verified sender in SendGrid
+        replyTo: req.body.email,
         subject: `[Lead from website] : ${req.body.subject}`,
         html: `Your HTML email content here...`,
       });
       // If email is sent successfully, send a 200 OK response
+      console.log(req);
       res.status(200).json({ message: "Email sent successfully" });
     } catch (error) {
       console.error(error);

@@ -14,7 +14,7 @@ export default function PricingTables() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
             <h1 className="h1 mb-4" data-aos="fade-up">Simple, transparent pricing</h1>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Get the Kubespaces plan that fits your needs at a special introductory price.</p>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">We only charge you for the resources you consume, not the amount of namespaces or users. Prices are indicative at the moment.</p>
           </div>
 
           {/* Pricing tables */}
@@ -40,13 +40,13 @@ export default function PricingTables() {
               {/* Pricing table 1 */}
               <div className="relative flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="700">
                 <div className="mb-4 pb-4 border-b border-gray-700">
-                  <div className="h4 text-purple-600 mb-1">Essential</div>
+                  <div className="h4 text-purple-600 mb-1">Basic</div>
                   <div className="inline-flex items-baseline mb-2">
                     <span className="text-2xl md:text-3xl font-medium text-gray-400">$</span>
                     <span className="h2">{annual ? '49' : '55'}</span>
-                    <span className="font-medium text-gray-400">/mo</span>
+                    <span className="font-medium text-gray-400">/month</span>
                   </div>
-                  <div className="text-gray-400">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-gray-400">for every 10 Gb / 10 vCPUs</div>
                 </div>
                 <div className="font-medium mb-3">Features include:</div>
                 <ul className="text-gray-400 -mb-3 grow">
@@ -54,26 +54,33 @@ export default function PricingTables() {
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>50 Placeholder text commonly</span>
+                    <span>Basic support</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Consectetur adipiscing elit</span>
+                    <span>Unlimited users</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Excepteur sint occaecat cupidatat</span>
+                    <span>Unlimited tenants</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Officia deserunt mollit anim</span>
+                    <span>Multiple regions</span>
                   </li>
+                  <li className="flex items-center mb-3">
+                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>Automatic ingress</span>
+                  </li>
+
                 </ul>
                 <div className="border border-gray-700 p-3 mt-6">
                   <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 w-full" href="#0">Start free trial</a>
@@ -92,7 +99,7 @@ export default function PricingTables() {
                     <span className="h2">{annual ? '79' : '85'}</span>
                     <span className="font-medium text-gray-400">/mo</span>
                   </div>
-                  <div className="text-gray-400">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-gray-400">for every 10 Gb / 10 vCPUs</div>
                 </div>
                 <div className="font-medium mb-3">All features of Essential plus:</div>
                 <ul className="text-gray-400 -mb-3 grow">
@@ -100,31 +107,7 @@ export default function PricingTables() {
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>100 placeholder text commonly</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Consectetur adipiscing elit</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Excepteur sint occaecat cupidatat</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Officia deserunt mollit anim</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Placeholder text commonly used</span>
+                    <span>Premium support with guaranteed SLA</span>
                   </li>
                 </ul>
                 <div className="border border-gray-700 p-3 mt-6">
@@ -141,7 +124,7 @@ export default function PricingTables() {
                     <span className="h2">{annual ? '129' : '135'}</span>
                     <span className="font-medium text-gray-400">/mo</span>
                   </div>
-                  <div className="text-gray-400">Better insights for growing businesses that want more customers.</div>
+                  <div className="text-gray-400">for every 10 Gb / 10 vCPUs</div>
                 </div>
                 <div className="font-medium mb-3">All features of Essential plus:</div>
                 <ul className="text-gray-400 -mb-3 grow">
@@ -149,37 +132,13 @@ export default function PricingTables() {
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>200 placeholder text commonly</span>
+                    <span>Dedicated support</span>
                   </li>
                   <li className="flex items-center mb-3">
                     <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Consectetur adipiscing elit</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Excepteur sint occaecat cupidatat</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Officia deserunt mollit anim</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Voluptate velit esse cillum</span>
-                  </li>
-                  <li className="flex items-center mb-3">
-                    <svg className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                    </svg>
-                    <span>Placeholder text commonly used</span>
+                    <span>Private, dedicated clusters</span>
                   </li>
                 </ul>
                 <div className="border border-gray-700 p-3 mt-6">

@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Pricing - Kubespaces',
-  description: 'Page description',
+  description: 'Pricing',
 }
 
 import PricingTables from '@/components/pricing-tables'
@@ -13,7 +13,7 @@ export default function Pricing() {
     <>
       <PricingTables />
       <Faqs />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Cta />
     </>
   )

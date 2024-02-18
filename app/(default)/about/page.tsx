@@ -19,9 +19,9 @@ export default function About() {
       <TeamImages />
       <Timeline />
       <Team />
-      <TestimonialsCarousel />
-      <Career />
-      <Clients />
+      {/* <TestimonialsCarousel /> */}
+      {/* <Career /> */}
+      {/* <Clients /> */}
       <Newsletter />
     </>
   )

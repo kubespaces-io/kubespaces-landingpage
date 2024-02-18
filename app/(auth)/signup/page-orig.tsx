@@ -13,7 +13,7 @@ export default function SignUp() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">We're working on launching a private beta in Q1 2024! Stay tuned.</h1>
+            <h1 className="h2">We're working on launching a private beta in Q1 2024! Stay tuned, and send us an email <a href="https://us3.list-manage.com/contact-form?u=24d31b30ff32b9a76f8acf796&form_id=fcb24d89a79c3c92cf351dd560d7be1e"><u>here</u></a></h1>
           </div>
 
           {/* Form */}

@@ -36,11 +36,20 @@ export default function Header() {
                   Blog
                 </Link>
               </li>
-              <li>
+              <Dropdown title="Company">
+                {/* 2nd level: hover */}
+                <li>
                 <Link href="/about" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   About us
                 </Link>
               </li>
+                <li>
+                  <Link href="/mission" className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">
+                    Mission
+                  </Link>
+                </li>
+              </Dropdown>
+
               {/* 1st level: hover */}
               <Dropdown title="Learn More">
                 {/* 2nd level: hover */}

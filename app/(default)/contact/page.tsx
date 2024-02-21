@@ -4,6 +4,7 @@ export const metadata = {
 }
 
 import CtaContact from '@/components/cta-contact'
+import ContactForm from '@/components/contact-form'
 
 export default function Contact() {
   return (
@@ -18,10 +19,14 @@ export default function Contact() {
               <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">We are making Kubespaces.io so it will fit your use cases; please let us know which direction you would like to see it go in. We will be in touch soon. Feel free to contact us <a href="https://us3.list-manage.com/contact-form?u=24d31b30ff32b9a76f8acf796&form_id=fcb24d89a79c3c92cf351dd560d7be1e"><u>here</u></a>.</p>
             </div>
 
+            <ContactForm />
+
 
           </div>
         </div>
       </section>
+
+      <CtaContact />
 
     </>
   )

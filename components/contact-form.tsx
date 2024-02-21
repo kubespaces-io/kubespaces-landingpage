@@ -1,6 +1,13 @@
 'use client'
 import React, { useState } from "react";
 
+type FormErrors = {
+  fullname?: string;
+  email?: string;
+  subject?: string;
+  message?: string;
+};
+
 export default function ContactForm() {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
@@ -12,7 +19,7 @@ export default function ContactForm() {
   const [showFailureMessage, setShowFailureMessage] = useState(false);
 
   const handleValidation = () => {
-    let tempErrors = {};
+    let tempErrors: FormErrors = {};
     let isValid = true;
 
     if (fullname.trim() === "") {

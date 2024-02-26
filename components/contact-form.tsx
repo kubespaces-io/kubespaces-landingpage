@@ -6,6 +6,7 @@ type FormErrors = {
   email?: string;
   subject?: string;
   message?: string;
+  privacy?: boolean;
 };
 
 export default function ContactForm() {
@@ -13,6 +14,7 @@ export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [privacy, setPrivacy] = useState("");
   const [errors, setErrors] = useState<FormErrors>({});
   const [buttonText, setButtonText] = useState("Send");
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
@@ -38,7 +40,10 @@ export default function ContactForm() {
       tempErrors["message"] = "Message cannot be empty.";
       isValid = false;
     }
-
+    if (privacy === false) {
+      tempErrors["privacy"] = "You must acceppt the privacy policy.";
+      isValid = false;
+    }
     setErrors(tempErrors);
     return isValid;
   };
@@ -112,7 +117,7 @@ export default function ContactForm() {
           <div className="flex flex-wrap -mx-3 mb-4">
             <div className="w-full px-3">
               <label className="flex items-center">
-                <input type="checkbox" className="form-checkbox" />
+                <input type="checkbox" value={privacy} onChange={(e) => {setPrivacy(e.target.value);}} className="form-checkbox" />{errors?.privacy && (<p className="text-red-500">You must accept the privacy policy.</p>)}
                 <span className="text-gray-400 ml-2">I agree to the privacy policy</span>
               </label>
             </div>

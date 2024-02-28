@@ -27,7 +27,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage01} width={120} height={120} alt="Team member 01" />
                 <h4 className="text-xl font-medium mb-1">Alessandro Vozza</h4>
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@bongo</a>
+                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="hhttps://www.linkedin.com/in/alessandrovozza">@linkedin</a>
               </div>
             </div>
 
@@ -37,7 +37,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 02" />
                 <h4 className="text-xl font-medium mb-1">Meg Stefouli</h4>
                 <div className="text-gray-500 mb-1">CPO & Co-founder</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@marie_moon</a>
+                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/megstefuli/">@linkedin</a>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage03} width={120} height={120} alt="Team member 03" />
                 <h4 className="text-xl font-medium mb-1">Orlando Hutchings</h4>
                 <div className="text-gray-500 mb-1">COO</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@mr_sebastian</a>
+                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/orlhut/">@linkedin</a>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage04} width={120} height={120} alt="Team member 04" />
                 <h4 className="text-xl font-medium mb-1">Hamish Hutchings</h4>
                 <div className="text-gray-500 mb-1">Product Executive</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@timothychandran</a>
+                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#https://www.linkedin.com/in/hamish-hutchings-77466149/">@linkedin</a>
               </div>
             </div>
 
@@ -67,7 +67,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage05} width={120} height={120} alt="Team member 03" />
                 <h4 className="text-xl font-medium mb-1">Riccardo Bevilacqua</h4>
                 <div className="text-gray-500 mb-1">Head of Design</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@mr_sebastian</a>
+                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/ricbevilacqua/">@linkedin</a>
               </div>
             </div>
 

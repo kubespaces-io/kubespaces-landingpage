@@ -1,0 +1,52 @@
+---
+title: 'What is Kubespaces?'
+publishedAt: '2024-01-09'
+image: '/images/news-03.jpg'
+summary: 'An introduction to namespace-as-a-service.'
+author: 'Alessandro Vozza'
+authorImg: '/images/alessandro.png'
+tags:
+  - Introduction
+  - Tutorials and articles
+---
+
+Kubespaces is a Platform-as-a-service built on top of managed Kubernetes clusters, oriented at consuming Namespaces-as-a-service and tuned for a seamless developer experience. 
+
+Kubespaces was born from a real need experienced by its founders in their daily work at several large and small financial institutions and retail industry leaders, where they experienced how hard and complicated is to build a platform for enabling developers to be the most productive. What was needed was the namespace abstraction, not clusters or virtual machines.
+
+
+<Image
+  alt="News inner"
+  src={`/images/news-inner-image.jpg`}
+  width={768}
+  height={432}
+  caption="Photo by Helena Lopes on Unsplash"
+/>
+
+### Challenges of adopting Kubernetes as a platform
+
+Although Kubernetes is the de facto container orchestrator platform choice for the vast majority of organizations, and containerized applications are the standard way to package, distribute, and run modern applications, its quirks and idiosyncrasies make it a tough cookie to implement, secure, and turn into a coherent platform for developer productivity
+
+#### Here's what we discovered:
+
+* A huge amount of human and technical cost is poured into building internal platforms, often based on cloud providers' "managed" Kubernetes services. It takes a village to build a platform
+* The result of such efforts looks often like a "namespaces vending machine", or a platform that automates the provisioning of developer environments (which in Kubernetes are often identified as namespaces), following security standards.
+* Multi-tenancy (sharing of resources/clusters among multiple developers' teams) is hard and misunderstood
+
+For all the above, we identified the product market fit for a __namespace-as-a-service__, where the unit of computation is the containerized applications running in a namespace, and the user/developer is free to deploy and manage their workloads within the  
+
+#### The need for a true Platform-as-a-service
+
+Most "platforms" are limited in scope, adopt non-industry-standard APIs, or have difficulty integrating; we decided early on (and we had the skills for it) to leverage the most popular API for containers and microservices orchestration, Kubernetes, to build a true PaaS where everything is abstracted but the most important and value-added piece: the namespace. It is there that developer productivity is finally unleashed and applications can live safely exposed and isolated from each other while keeping the possibility of intra-service/intra-tenant communication (ruled by standard Kubernetes NetworkPolicies).
+
+#### Multitenancy at its core
+
+Our platform is built from the ground up to be scalable and secure and is based on popular open source projects like vCluster, Istio, ArgoCD, and OPA. We introduce purposefully the concept of tenant (and hide away the very notion of clusters and underlying infrastructure) as a collection of namespaces; we offer ample choice of cloud providers (and on-premise data centers) and we abstract away the nitty-gritty details of running, upgrading and securing infrastructure: what we give you back is a collection of tenants and namespaces that you can peruse at your will, assign to your developers' teams and use to deploy hundreds and thousands of applications in multiple environments, from testing to production securely, quickly and easily.
+
+### Conclusions
+
+We believe in providing the tools to excel to the most developers possible, and we believe Kubespaces can be the answer to the years of efforts and resources poured into ad-hoc platform building; we want to build a product based on your feedback and suggestions but with a strong vision of what and how a PaaS should work. 
+
+### Where do we go from here
+
+We have a full roadmap in the works where we will account for even more use cases (private tenants, customer-provided tenants, and so on) and we can't wait to hear from you

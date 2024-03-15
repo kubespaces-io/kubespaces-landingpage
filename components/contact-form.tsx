@@ -6,7 +6,7 @@ type FormErrors = {
   email?: string;
   subject?: string;
   message?: string;
-  privacy?: boolean;
+  privacy?: string;
 };
 
 export default function ContactForm() {
@@ -40,7 +40,7 @@ export default function ContactForm() {
       tempErrors["message"] = "Message cannot be empty.";
       isValid = false;
     }
-    if (privacy === false) {
+    if (privacy === "") {
       tempErrors["privacy"] = "You must acceppt the privacy policy.";
       isValid = false;
     }

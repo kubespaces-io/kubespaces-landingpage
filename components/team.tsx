@@ -27,7 +27,7 @@ export default function Team() {
                 <Image className="rounded-full mb-4" src={TeamImage01} width={120} height={120} alt="Team member 01" />
                 <h4 className="text-xl font-medium mb-1">Alessandro Vozza</h4>
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
-                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="hhttps://www.linkedin.com/in/alessandrovozza">@linkedin</a>
+                <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://www.linkedin.com/in/alessandrovozza">@linkedin</a>
               </div>
             </div>
 

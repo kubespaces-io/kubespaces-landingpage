@@ -29,6 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><script defer src="https://umami.cloud.kubespaces.io/script.js" data-website-id="1d1cfd15-9b64-462e-b316-a0c99e29ec5f"></script></head>
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />

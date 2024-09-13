@@ -1,19 +1,12 @@
 import "./css/style.css";
 
-import { Inter, Architects_Daughter } from "next/font/google";
+import { Inter } from "next/font/google";
 
 import Header from "@/components/ui/header";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
-});
-
-const architects_daughter = Architects_Daughter({
-  subsets: ["latin"],
-  variable: "--font-architects-daughter",
-  weight: "400",
   display: "swap",
 });
 
@@ -28,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <script
           defer
@@ -37,9 +30,9 @@ export default function RootLayout({
         ></script>
       </head>
       <body
-        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
+        className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
-        <div className="flex flex-col min-h-screen overflow-hidden">
+        <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
         </div>

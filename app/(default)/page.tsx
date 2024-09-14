@@ -12,6 +12,7 @@ import News from "@/components/news";
 import Newsletter from "@/components/newsletter";
 import ParallaxSection from "@/components/ParallaxSection";
 import BusinessCategories from "@/components/business-categories";
+import TestimonialsCarousel from "@/components/testimonials-carousel";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       <BusinessCategories />
       <Process />
       <FeaturesHome />
-      <Tabs />
+      <TestimonialsCarousel />
       <Target />
       <News />
       <Newsletter />

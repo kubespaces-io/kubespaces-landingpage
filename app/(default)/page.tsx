@@ -11,12 +11,14 @@ import Target from "@/components/target";
 import News from "@/components/news";
 import Newsletter from "@/components/newsletter";
 import ParallaxSection from "@/components/ParallaxSection";
+import BusinessCategories from "@/components/business-categories";
 
 export default function Home() {
   return (
     <>
       {/* <ParallaxSection /> */}
       <Hero />
+      <BusinessCategories />
       <Process />
       <FeaturesHome />
       <Tabs />

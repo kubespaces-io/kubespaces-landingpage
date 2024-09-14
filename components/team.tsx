@@ -2,9 +2,9 @@ import Image from "next/image";
 
 import TeamImage01 from "@/public/images/alessandro.png";
 import TeamImage02 from "@/public/images/meg.jpeg";
-import TeamImage03 from "@/public/images/orlando.jpeg";
-import TeamImage04 from "@/public/images/hamish.png";
-import TeamImage05 from "@/public/images/riccardo.jpeg";
+import TeamImage03 from "@/public/images/mile.jpeg";
+import TeamImage04 from "@/public/images/payam.jpeg";
+import TeamImage05 from "@/public/images/zafar.jpeg";
 
 export default function Team() {
   return (
@@ -13,8 +13,10 @@ export default function Team() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our passionate team</h2>
-            <p className="text-xl text-gray-400">
+            <h2 className="text-3xl font-bold md:text-4xl">
+              Our passionate team
+            </h2>
+            <p className="text-xl text-gray-600">
               We are an happy bunch of industry experts, community builders,
               passionate startup founders and emphatic leaders.
             </p>
@@ -91,11 +93,11 @@ export default function Team() {
                   height={120}
                   alt="Team member 03"
                 />
-                <h4 className="text-xl font-medium mb-1">Orlando Hutchings</h4>
-                <div className="text-gray-500 mb-1">COO</div>
+                <h4 className="text-xl font-medium mb-1">Mile Družijanić</h4>
+                <div className="text-gray-500 mb-1">Software Engineer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="https://www.linkedin.com/in/orlhut/"
+                  href="https://www.linkedin.com/in/mile-druzijanic/"
                 >
                   @linkedin
                 </a>
@@ -117,11 +119,11 @@ export default function Team() {
                   height={120}
                   alt="Team member 04"
                 />
-                <h4 className="text-xl font-medium mb-1">Hamish Hutchings</h4>
-                <div className="text-gray-500 mb-1">Product Executive</div>
+                <h4 className="text-xl font-medium mb-1">Payam Anari</h4>
+                <div className="text-gray-500 mb-1">Software Engineer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#https://www.linkedin.com/in/hamish-hutchings-77466149/"
+                  href="#https://www.linkedin.com/in/payamanari/"
                 >
                   @linkedin
                 </a>
@@ -143,13 +145,11 @@ export default function Team() {
                   height={120}
                   alt="Team member 03"
                 />
-                <h4 className="text-xl font-medium mb-1">
-                  Riccardo Bevilacqua
-                </h4>
-                <div className="text-gray-500 mb-1">Head of Design</div>
+                <h4 className="text-xl font-medium mb-1">N Zafar</h4>
+                <div className="text-gray-500 mb-1">Software Engineer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="https://www.linkedin.com/in/ricbevilacqua/"
+                  href="https://www.linkedin.com/in/nidaulzafar/"
                 >
                   @linkedin
                 </a>

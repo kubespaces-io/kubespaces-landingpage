@@ -1,12 +1,19 @@
 import "./css/style.css";
 
-import { Inter } from "next/font/google";
+import { Inter, Architects_Daughter } from "next/font/google";
 
 import Header from "@/components/ui/header";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+const architects_daughter = Architects_Daughter({
+  subsets: ["latin"],
+  variable: "--font-architects-daughter",
+  weight: "400",
   display: "swap",
 });
 
@@ -30,7 +37,7 @@ export default function RootLayout({
         ></script>
       </head>
       <body
-        className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
+        className={`${inter.variable} ${architects_daughter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />

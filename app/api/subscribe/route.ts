@@ -23,13 +23,10 @@ export async function POST(req: NextRequest, res: NextResponse<ResponseData>) {
       {
         method: "POST",
         headers: {
-          Authorization: `Basic ${Buffer.from(`anystring:${API_KEY}`).toString(
-            "base64"
-          )}`,
+          Authorization: `Bearer ${API_KEY}`,
           Accept: "application/json",
           "Content-Type": "application/json",
         },
-
         body: JSON.stringify({
           email_address: email,
           status: "subscribed",

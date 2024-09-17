@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 
 type FormErrors = {
@@ -90,44 +90,137 @@ export default function ContactForm() {
         <form onSubmit={handleSubmit} className="max-w-xl mx-auto">
           {/* Input fields and labels */}
           <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3 mb-4 md:mb-0">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="first-name">Full Name <span className="text-red-600">*</span></label>
-                  <input id="fullname" type="text" name="fullname" value={fullname} onChange={(e) => {setFullname(e.target.value);}} className="form-input w-full text-gray-300 focus:border-red-500" placeholder="Enter your first name" required />{errors?.fullname && (<p className="text-red-500">Fullname cannot be empty.</p>)}
-                  <p className="text-red-500 text-sm mt-2">This field is required</p>
-                </div>
-          </div>
-          <div className="flex flex-wrap -mx-3 mb-4">
-            <div className="w-full px-3">
-              <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Email <span className="text-red-600">*</span></label>
-              <input id="email" type="text" name="email" value={email} onChange={(e) => {setEmail(e.target.value);}} className="form-input w-full text-gray-300 focus:border-red-500" placeholder="Enter your first name" required />{errors?.email && (<p className="text-red-500">Email cannot be empty.</p>)}
+            <div className="w-full px-3 mb-4 md:mb-0">
+              <label
+                className="block text-gray-600 text-sm font-medium mb-1"
+                htmlFor="first-name"
+              >
+                Full Name <span className="text-red-600">*</span>
+              </label>
+              <input
+                id="fullname"
+                type="text"
+                name="fullname"
+                value={fullname}
+                onChange={(e) => {
+                  setFullname(e.target.value);
+                }}
+                className="form-input w-full text-gray-700 focus:border-red-500"
+                placeholder="Enter your Name"
+                required
+              />
+              {errors?.fullname && (
+                <p className="text-red-500">Fullname cannot be empty.</p>
+              )}
             </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="subject">Subject <span className="text-red-600">*</span></label>
-                  <input id="subject" type="text" name="subject" value={subject} onChange={(e) => {setSubject(e.target.value);}} className="form-input w-full text-gray-300 focus:border-red-500" placeholder="Enter your first name" required />{errors?.subject && (<p className="text-red-500">Subject cannot be empty.</p>)}
-                </div>
+            <div className="w-full px-3">
+              <label
+                className="block text-gray-600 text-sm font-medium mb-1"
+                htmlFor="email"
+              >
+                Email <span className="text-red-600">*</span>
+              </label>
+              <input
+                id="email"
+                type="text"
+                name="email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                }}
+                className="form-input w-full text-gray-700 focus:border-red-500"
+                placeholder="Enter your first name"
+                required
+              />
+              {errors?.email && (
+                <p className="text-red-500">Email cannot be empty.</p>
+              )}
+            </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-4">
-                <div className="w-full px-3">
-                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="message">Message</label>
-                  <textarea id="message" rows={4} name="message" value={message} onChange={(e) => {setMessage(e.target.value);}} className="form-textarea w-full text-gray-300" placeholder="Write your message"></textarea>{errors?.message && (<p className="text-red-500">Message body cannot be empty.</p>)}
-                </div>
+            <div className="w-full px-3">
+              <label
+                className="block text-gray-600 text-sm font-medium mb-1"
+                htmlFor="subject"
+              >
+                Subject <span className="text-red-600">*</span>
+              </label>
+              <input
+                id="subject"
+                type="text"
+                name="subject"
+                value={subject}
+                onChange={(e) => {
+                  setSubject(e.target.value);
+                }}
+                className="form-input w-full text-gray-700 focus:border-red-500"
+                placeholder="Enter your first name"
+                required
+              />
+              {errors?.subject && (
+                <p className="text-red-500">Subject cannot be empty.</p>
+              )}
+            </div>
+          </div>
+          <div className="flex flex-wrap -mx-3 mb-4">
+            <div className="w-full px-3">
+              <label
+                className="block text-gray-600 text-sm font-medium mb-1"
+                htmlFor="message"
+              >
+                Message
+              </label>
+              <textarea
+                id="message"
+                rows={4}
+                name="message"
+                value={message}
+                onChange={(e) => {
+                  setMessage(e.target.value);
+                }}
+                className="form-textarea w-full text-gray-700"
+                placeholder="Write your message"
+              ></textarea>
+              {errors?.message && (
+                <p className="text-red-500">Message body cannot be empty.</p>
+              )}
+            </div>
           </div>
           <div className="flex flex-wrap -mx-3 mb-4">
             <div className="w-full px-3">
               <label className="flex items-center">
-                <input type="checkbox" value={privacy} onChange={(e) => {setPrivacy(e.target.value);}} className="form-checkbox" />{errors?.privacy && (<p className="text-red-500">You must accept the privacy policy.</p>)}
-                <span className="text-gray-400 ml-2">I agree to the privacy policy</span>
+                <input
+                  type="checkbox"
+                  value={privacy}
+                  onChange={(e) => {
+                    setPrivacy(e.target.value);
+                  }}
+                  className="form-checkbox"
+                />
+                {errors?.privacy && (
+                  <p className="text-red-500">
+                    You must accept the privacy policy.
+                  </p>
+                )}
+                <span className="text-purple-600 ml-2">
+                  I agree to the privacy policy
+                </span>
               </label>
             </div>
           </div>
           {/* Include error handling and display logic here */}
-          <button type="submit" className="btn text-white bg-purple-600 hover:bg-purple-700 w-full">
+          <button
+            type="submit"
+            className="btn text-white bg-purple-600 hover:bg-purple-700 w-full"
+          >
             {buttonText}
           </button>
           {showSuccessMessage && <p>Message sent successfully!</p>}
-          {showFailureMessage && <p>Failed to send the message. Please try again.</p>}
+          {showFailureMessage && (
+            <p>Failed to send the message. Please try again.</p>
+          )}
         </form>
       </div>
     </section>

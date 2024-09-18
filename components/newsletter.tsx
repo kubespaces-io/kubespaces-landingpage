@@ -48,7 +48,7 @@ export default function Newsletter() {
             <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
               Stay in the loop
             </h2>
-            <p className="text-purple-200 text-lg">
+            <p className="text-purple-200 text-lg mb-4">
               Join our newsletter to get top news before anyone else.
             </p>
             <form className="w-full lg:w-1/2 mx-auto" onSubmit={subscribe}>

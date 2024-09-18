@@ -116,7 +116,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="https://twitter.com/kubespaces"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-100 bg-purple-600 hover:text-gray-800 hover:bg-purple-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Twitter"
                 >
                   <svg
@@ -131,7 +131,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://github.com/kubespaces-io"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-100 bg-purple-600 hover:text-gray-800 hover:bg-purple-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Github"
                 >
                   <svg
@@ -146,7 +146,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://www.linkedin.com/company/kubespaces-io/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-gray-100 bg-purple-600 hover:text-gray-800 hover:bg-purple-300 rounded-full transition duration-150 ease-in-out"
                   aria-label="Linkedin"
                 >
                   <svg

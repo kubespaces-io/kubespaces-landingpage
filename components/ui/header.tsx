@@ -93,7 +93,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="//help/frequently-asked-questions"
+                    href="http://docs.kubespaces.io/"
                     className="flex rounded-lg px-2 py-1.5 text-sm text-gray-700 hover:bg-gray-100"
                   >
                     Help Center

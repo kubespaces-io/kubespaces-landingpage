@@ -70,7 +70,7 @@ export default function Target() {
                       <span className="text-teal-500">.</span> For platform
                       engineers
                     </h3>
-                    <p className="text-lg text-gray-400">
+                    <p className="text-lg text-gray-600">
                       Build upon our services your next platform; integrate with
                       CI/CD, monitoring and security tools of your choice..
                     </p>
@@ -84,7 +84,7 @@ export default function Target() {
                     <h3 className="mb-4 text-2xl font-bold md:text-2xl">
                       <span className="text-pink-500">.</span> For teams
                     </h3>
-                    <p className="text-lg text-gray-400">
+                    <p className="text-lg text-gray-600">
                       Collaborate with your entire team, share namespaces and
                       environments with your organization.
                     </p>

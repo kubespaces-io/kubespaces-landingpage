@@ -29,7 +29,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Kubespaces.io
                     </Link>
@@ -37,7 +37,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/consulting"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Consulting
                     </Link>
@@ -45,7 +45,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/private-cloud"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Private Cloud
                     </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://docs.kubespaces.io"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Documentation
                     </Link>
@@ -68,7 +68,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Book time with us
                     </Link>
@@ -83,7 +83,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       About us
                     </Link>
@@ -91,7 +91,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Colophon
                     </Link>
@@ -99,7 +99,7 @@ export default function Footer() {
                   <li className="mb-1">
                     <Link
                       href="/"
-                      className="text-gray-600 hover:text-gray-100 transition duration-150 ease-in-out"
+                      className="text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out"
                     >
                       Privacy
                     </Link>

@@ -66,7 +66,7 @@ export default function Process() {
                 />
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">1</span>. Onboard
+                <span className="text-gray-600">1</span>. Onboard
               </h4>
               <p className="text-lg text-gray-500 text-center">
                 Deploy tenants in multiple clouds and regions with few clicks or
@@ -118,7 +118,7 @@ export default function Process() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">2</span>. Deploy
+                <span className="text-gray-600">2</span>. Deploy
               </h4>
               <p className="text-lg text-gray-500 text-center">
                 Your developers are immediately productive, being able to
@@ -160,7 +160,7 @@ export default function Process() {
                 />
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">3</span>. Scale
+                <span className="text-gray-600">3</span>. Scale
               </h4>
               <p className="text-lg text-gray-500 text-center">
                 Scale as you grow, with a no-nonsense pricing based on

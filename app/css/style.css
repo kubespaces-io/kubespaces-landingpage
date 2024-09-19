@@ -10,13 +10,13 @@
 @import 'tailwindcss/utilities';
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
-@layer utilities {
+/* @layer utilities {
     .rtl {
         direction: rtl;
     }
-}
+} */
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
-[x-cloak=""] {
+/* [x-cloak=""] {
     display: none;
-}
+} */

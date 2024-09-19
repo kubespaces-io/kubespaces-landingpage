@@ -49,6 +49,7 @@ export default function Team() {
                 >
                   @linkedin
                 </a>
+
               </div>
             </div>
 

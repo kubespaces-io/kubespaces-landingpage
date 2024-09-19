@@ -99,26 +99,45 @@ export default function HeroHome() {
               </div>
               <div className="font-mono text-sm text-gray-500 [&_span]:opacity-0">
                 <span className="animate-[code-1_10s_infinite] text-gray-200">
-                  npm login
-                </span>{" "}
-                <span className="animate-[code-2_10s_infinite]">
-                  --registry=https://npm.pkg.github.com
+                  ksctl create tenant --name dev
                 </span>
                 <br />
-                <span className="animate-[code-3_10s_infinite]">
-                  --scope=@phanatic
-                </span>{" "}
-                <span className="animate-[code-4_10s_infinite]">
-                  Successfully logged-in.
+                <span className="animate-[code-2_10s_infinite] text-gray-200">
+                  ksctl get kubeconfing --tenant dev -f dev-kubeconfig.yaml
                 </span>
                 <br />
+                <span className="animate-[code-3_10s_infinite] text-gray-200">
+                  export KUBECONFIG=./dev-kubeconfig.yaml
+                </span>
+                <br />
+                <span className="animate-[code-4_10s_infinite] text-gray-200">
+                  kubectl get ns
+                </span>
                 <br />
                 <span className="animate-[code-5_10s_infinite] text-gray-200">
-                  npm publish
+                  NAME STATUS AGE
+                  <br />
+                  default Active 42h <br /> kube-node-lease Active 42h <br />
+                  kube-public Active 42h <br />
+                  kube-system Active 42h
                 </span>
                 <br />
-                <span className="animate-[code-6_10s_infinite]">
-                  Package published.
+                <span className="animate-[code-6_10s_infinite] text-gray-200">
+                  kubectl create ns development
+                </span>
+                <br />
+                <span className="animate-[code-7_10s_infinite] text-gray-200">
+                  kubectl run -n default nginx --image=nginx --port=80;
+                  <br />
+                  kubectl expose po/nginx
+                </span>
+                <br />
+                <span className="animate-[code-8_10s_infinite] text-gray-200">
+                  kubectl get po
+                </span>
+                <br />
+                <span className="animate-[code-9_10s_infinite] text-gray-200">
+                  NAME READY STATUS RESTARTS AGE <br /> nginx 1/1 Running 0 36h
                 </span>
               </div>
             </div>

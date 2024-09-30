@@ -49,7 +49,7 @@ export default function Cta() {
                 data-aos-anchor="[data-aos-id-cta]"
               >
                 <svg
-                  className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                  className="w-3 h-3 fill-current text-purple-500 mr-2 shrink-0"
                   viewBox="0 0 12 12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -64,7 +64,7 @@ export default function Cta() {
                 data-aos-anchor="[data-aos-id-cta]"
               >
                 <svg
-                  className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                  className="w-3 h-3 fill-current text-purple-500 mr-2 shrink-0"
                   viewBox="0 0 12 12"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -79,7 +79,7 @@ export default function Cta() {
                 data-aos-anchor="[data-aos-id-cta]"
               >
                 <svg
-                  className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
+                  className="w-3 h-3 fill-current text-purple-500 mr-2 shrink-0"
                   viewBox="0 0 12 12"
                   xmlns="http://www.w3.org/2000/svg"
                 >

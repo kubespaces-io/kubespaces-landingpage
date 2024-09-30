@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import TeamImage01 from "@/public/images/alessandro.png";
-import TeamImage02 from "@/public/images/meg.jpeg";
 import TeamImage03 from "@/public/images/thomas.jpeg";
 import TeamImage04 from "@/public/images/mile.jpeg";
 import TeamImage05 from "@/public/images/payam.jpeg";
@@ -47,32 +46,6 @@ export default function Team() {
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="https://www.linkedin.com/in/alessandrovozza"
-                >
-                  @linkedin
-                </a>
-              </div>
-            </div>
-
-            {/* 2nd member */}
-            <div
-              className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
-              data-aos="fade-up"
-              data-aos-delay="100"
-              data-aos-anchor="[data-aos-id-team]"
-            >
-              <div className="flex flex-col items-center">
-                <Image
-                  className="rounded-full mb-4"
-                  src={TeamImage02}
-                  width={120}
-                  height={120}
-                  alt="Team member 02"
-                />
-                <h4 className="text-xl font-medium mb-1">Meg Stefouli</h4>
-                <div className="text-gray-500 mb-1">CPO & Co-founder</div>
-                <a
-                  className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="https://www.linkedin.com/in/megstefuli/"
                 >
                   @linkedin
                 </a>

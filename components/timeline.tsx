@@ -33,7 +33,7 @@ export default function Timeline() {
                   The seed
                 </div>
                 <div className="flex items-center mb-3">
-                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full">
+                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-white bg-purple-400 rounded-full">
                     2022
                   </div>
                   <div
@@ -68,7 +68,7 @@ export default function Timeline() {
                   Development
                 </div>
                 <div className="flex items-center mb-3">
-                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full">
+                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-white bg-purple-400 rounded-full">
                     2023
                   </div>
                   <div
@@ -102,7 +102,7 @@ export default function Timeline() {
                   Pivoting
                 </div>
                 <div className="flex items-center mb-3">
-                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full">
+                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-white bg-purple-400 rounded-full">
                     2024
                   </div>
                   <div
@@ -137,7 +137,7 @@ export default function Timeline() {
                   Huge milestone
                 </div>
                 <div className="flex items-center mb-3">
-                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-green-600 bg-green-200 rounded-full">
+                  <div className="absolute left-0 inline-flex text-sm font-semibold py-1 px-3 text-white bg-purple-400 rounded-full">
                     2025
                   </div>
                   <div

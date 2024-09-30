@@ -1,5 +1,6 @@
 // import VideoThumb from "@/public/images/hero-image-01.jpg";
 // import ModalVideo from "@/components/modal-video";
+import Process from "@/components/process";
 
 export default function HeroHome() {
   return (
@@ -45,7 +46,7 @@ export default function HeroHome() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center">
             <h1
               className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
@@ -86,6 +87,8 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
+          <Process />
+
           <div
             className="mx-auto max-w-3xl"
             data-aos="zoom-y-out"

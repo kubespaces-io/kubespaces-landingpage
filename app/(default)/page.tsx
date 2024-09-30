@@ -4,7 +4,6 @@ export const metadata = {
 };
 
 import Hero from "@/components/hero-home";
-import Process from "@/components/process";
 import FeaturesHome from "@/components/features";
 import Tabs from "@/components/tabs";
 import Target from "@/components/target";
@@ -20,7 +19,6 @@ export default function Home() {
       {/* <ParallaxSection /> */}
       <Hero />
       <BusinessCategories />
-      <Process />
       <FeaturesHome />
       <TestimonialsCarousel />
       <Target />

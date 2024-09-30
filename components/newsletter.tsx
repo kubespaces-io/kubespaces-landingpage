@@ -48,14 +48,14 @@ export default function Newsletter() {
             <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
               Stay in the loop
             </h2>
-            <p className="text-purple-200 text-lg mb-4">
+            <p className="text-gray-100 text-lg mb-4">
               Join our newsletter to get top news before anyone else.
             </p>
             <form className="w-full lg:w-1/2 mx-auto" onSubmit={subscribe}>
               <div className="flex flex-col sm:flex-row items-center justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input
                   type="email"
-                  className="w-full appearance-none bg-purple-500 border border-purple-500 focus:border-purple-300 rounded-lg px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-900"
+                  className="w-full appearance-none bg-purple-500 border border-purple-500 focus:border-purple-300 rounded-lg px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-100"
                   placeholder="Your best email…"
                   aria-label="Your best email…"
                   value={email}
@@ -64,7 +64,7 @@ export default function Newsletter() {
                 />
                 <button
                   type="submit"
-                  className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
+                  className="btn text-purple-100 bg-white hover:bg-purple-500 hover:text-gray-100 shadow"
                 >
                   Subscribe
                 </button>

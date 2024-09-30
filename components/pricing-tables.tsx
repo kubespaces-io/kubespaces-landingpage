@@ -63,27 +63,27 @@ export default function PricingTables() {
             <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
               {/* Pricing table 1 */}
               <div
-                className="relative flex flex-col h-full p-6 bg-gray-800"
+                className="relative flex flex-col h-full p-6 bg-gray-300"
                 data-aos="fade-up"
                 data-aos-delay="700"
               >
                 <div className="mb-4 pb-4 border-b border-gray-700">
-                  <div className="h4 text-purple-600 mb-1">Basic</div>
+                  <div className="h4 text-purple-500 mb-1">Basic</div>
                   <div className="inline-flex items-baseline mb-2">
-                    <span className="text-2xl md:text-3xl font-medium text-gray-400">
+                    <span className="text-2xl md:text-3xl font-medium text-gray-600">
                       $
                     </span>
                     <span className="h2">{annual ? "49" : "55"}</span>
-                    <span className="font-medium text-gray-400">/month</span>
+                    <span className="font-medium text-gray-600">/month</span>
                   </div>
-                  <div className="text-gray-400">
+                  <div className="text-gray-600">
                     for every 10 Gb / 10 vCPUs
                   </div>
                 </div>
-                <div className="font-medium mb-3 text-gray-400">
+                <div className="font-medium mb-3 text-gray-600">
                   Features include:
                 </div>
-                <ul className="text-gray-400 -mb-3 grow">
+                <ul className="text-gray-600 -mb-3 grow">
                   <li className="flex items-center mb-3">
                     <svg
                       className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
@@ -147,7 +147,7 @@ export default function PricingTables() {
 
               {/* Pricing table 2 */}
               <div
-                className="relative flex flex-col h-full p-6 bg-gray-800"
+                className="relative flex flex-col h-full p-6 bg-gray-300"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
@@ -159,20 +159,20 @@ export default function PricingTables() {
                 <div className="mb-4 pb-4 border-b border-gray-700">
                   <div className="h4 text-purple-600 mb-1">Premium</div>
                   <div className="inline-flex items-baseline mb-2">
-                    <span className="text-2xl md:text-3xl font-medium text-gray-400">
+                    <span className="text-2xl md:text-3xl font-medium text-gray-600">
                       $
                     </span>
                     <span className="h2">{annual ? "79" : "85"}</span>
-                    <span className="font-medium text-gray-400">/mo</span>
+                    <span className="font-medium text-gray-600">/month</span>
                   </div>
-                  <div className="text-gray-400">
+                  <div className="text-gray-600">
                     for every 10 Gb / 10 vCPUs
                   </div>
                 </div>
-                <div className="font-medium mb-3 text-gray-400">
+                <div className="font-medium mb-3 text-gray-600">
                   All features of Essential plus:
                 </div>
-                <ul className="text-gray-400 -mb-3 grow">
+                <ul className="text-gray-600 -mb-3 grow">
                   <li className="flex items-center mb-3">
                     <svg
                       className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
@@ -196,27 +196,27 @@ export default function PricingTables() {
 
               {/* Pricing table 3 */}
               <div
-                className="relative flex flex-col h-full p-6 bg-gray-800"
+                className="relative flex flex-col h-full p-6 bg-gray-300"
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
                 <div className="mb-4 pb-4 border-b border-gray-700">
                   <div className="h4 text-purple-600 mb-1">Advanced</div>
                   <div className="inline-flex items-baseline mb-2">
-                    <span className="text-2xl md:text-3xl font-medium text-gray-400">
+                    <span className="text-2xl md:text-3xl font-medium text-gray-600">
                       $
                     </span>
                     <span className="h2">{annual ? "129" : "135"}</span>
-                    <span className="font-medium text-gray-400">/mo</span>
+                    <span className="font-medium text-gray-600">/month</span>
                   </div>
-                  <div className="text-gray-400">
+                  <div className="text-gray-600">
                     for every 10 Gb / 10 vCPUs
                   </div>
                 </div>
-                <div className="font-medium mb-3 text-gray-400">
+                <div className="font-medium mb-3 text-gray-600">
                   All features of Essential plus:
                 </div>
-                <ul className="text-gray-400 -mb-3 grow">
+                <ul className="text-gray-600 -mb-3 grow">
                   <li className="flex items-center mb-3">
                     <svg
                       className="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"

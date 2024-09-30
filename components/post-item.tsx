@@ -48,7 +48,7 @@ export default function PostItem({ ...props }) {
         <div className="font-medium">
           <Link
             href="#"
-            className="text-purple-800 hover:text-gray-100 transition duration-150 ease-in-out"
+            className="text-purple-800 hover:text-gray-500 transition duration-150 ease-in-out"
           >
             {props.author}
           </Link>

@@ -5,17 +5,14 @@ export const metadata = {
 
 import Hero from "@/components/hero-home";
 import FeaturesHome from "@/components/features";
-import Tabs from "@/components/tabs";
 import Target from "@/components/target";
 import Newsletter from "@/components/newsletter";
-import ParallaxSection from "@/components/ParallaxSection";
 import BusinessCategories from "@/components/business-categories";
 import TestimonialsCarousel from "@/components/testimonials-carousel";
 
 export default function Home() {
   return (
     <>
-      {/* <ParallaxSection /> */}
       <Hero />
       <BusinessCategories />
       <FeaturesHome />

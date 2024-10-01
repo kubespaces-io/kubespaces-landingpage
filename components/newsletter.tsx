@@ -6,25 +6,26 @@ export default function Newsletter() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const subscribe = async (e: any) => {
+  const handleSubscribe = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setMessage("Subscribing...");
-    console.log(JSON.stringify({ email }));
-    // Replace this URL with your own API route or serverless function that proxies the request to Mailchimp
-    const subscribeUrl = "/api/subscribe";
-
     try {
-      const response = await fetch(subscribeUrl, {
+      const response = await fetch("/api/subscribe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ email }),
       });
-      console.log("response:", response);
+      const result = await response.json();
       if (response.ok) {
         setMessage("Subscribed!");
         setEmail("");
+        setTimeout(() => {
+          setMessage("");
+        }, 5000);
+      } else {
+        setMessage(result.message || "An error occurred.");
       }
     } catch (error) {
       setMessage("An error occurred.");
@@ -51,7 +52,10 @@ export default function Newsletter() {
             <p className="text-gray-100 text-lg mb-4">
               Join our newsletter to get top news before anyone else.
             </p>
-            <form className="w-full lg:w-1/2 mx-auto" onSubmit={subscribe}>
+            <form
+              className="w-full lg:w-1/2 mx-auto"
+              onSubmit={handleSubscribe}
+            >
               <div className="flex flex-col sm:flex-row items-center justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input
                   type="email"
@@ -71,9 +75,7 @@ export default function Newsletter() {
               </div>
             </form>
             {message && (
-              <p className="text-center lg:text-left lg:absolute mt-2 text-sm">
-                {message}
-              </p>
+              <div className="text-white mt-4 text-sm">{message}</div>
             )}
           </div>
         </div>

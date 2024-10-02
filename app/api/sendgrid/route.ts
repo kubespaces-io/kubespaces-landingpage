@@ -1,32 +1,38 @@
 import sendgrid from "@sendgrid/mail";
-import type { NextRequest, NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from "next/server";
 
 type ResponseData = {
-    message: string
+  message: string;
 };
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY!);
 
 export async function POST(req: NextRequest, res: NextResponse<ResponseData>) {
-    const body = await req.json();
-        try {
-            await sendgrid.send({
-                to: "hello@kubespaces.io", // Ensure this is your email
-                from: "hello@kubespaces.io", // Ensure this is a verified sender in SendGrid
-                replyTo: `${JSON.stringify(body.email)}`,
-                subject: `[Contact Form] : ${JSON.stringify(body.subject)}`,
-                html: `Good news! ${JSON.stringify(body.fullname)} has sent you a message with the following content: <br> ${JSON.stringify(body.message)} <br> You can reply to this email: ${JSON.stringify(body.email)}`,
-            });
-    // If email is sent successfully, send a 200 OK response
-    // console.log(req);
-    return new Response(`The email was sent from: ${JSON.stringify(body.email)}, the subject is ${JSON.stringify(body.subject)}; the call comes from ${req.headers.get('X-Forwarded-For')}`, {
-        status: 200  });
-    // res.status(200).json({ message: "Email sent successfully" });
-    } catch (error) {
+  const body = await req.json();
+  try {
+    await sendgrid.send({
+      to: "hello@kubespaces.io", // Ensure this is your email
+      from: "hello@kubespaces.io", // Ensure this is a verified sender in SendGrid
+      replyTo: body.email,
+      subject: `[Contact Form] : ${body.subject}`,
+      html: `
+      Good news! ${body.fullname} has sent you a message with the following content: <br> 
+      ${body.message} <br> 
+      You can reply to this email: ${body.email}
+    `,
+    });
+    // Return a success response
+    return NextResponse.json(
+      { message: "Email sent successfully" },
+      { status: 200 }
+    );
+  } catch (error) {
     console.error(error);
-    // Send a 500 Server Error response if there's an issue
-    // res.status(500).json({ error: error.message });
-    return new Response(`The email is: ${JSON.stringify(body.email)}, the subject is ${JSON.stringify(body.subject)}; the call comes from ${req.headers.get('X-Forwarded-For')}`, {
-        status: 500  });
-    }
-} 
+
+    // Return a more descriptive error message
+    const errorMessage =
+      error instanceof Error ? error.message : "An unexpected error occurred.";
+
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
+  }
+}

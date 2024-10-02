@@ -14,11 +14,10 @@ export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const [privacy, setPrivacy] = useState("");
+  const [privacy, setPrivacy] = useState("false");
   const [errors, setErrors] = useState<FormErrors>({});
   const [buttonText, setButtonText] = useState("Send");
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [showFailureMessage, setShowFailureMessage] = useState(false);
+  const [responseMessage, setResponseMessage] = useState<string | null>(null);
 
   const handleValidation = () => {
     let tempErrors: FormErrors = {};
@@ -40,15 +39,15 @@ export default function ContactForm() {
       tempErrors["message"] = "Message cannot be empty.";
       isValid = false;
     }
-    if (privacy === "") {
-      tempErrors["privacy"] = "You must acceppt the privacy policy.";
+    if (privacy === "false") {
+      tempErrors["privacy"] = "You must accept the privacy policy.";
       isValid = false;
     }
     setErrors(tempErrors);
     return isValid;
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     let isValidForm = handleValidation();
@@ -64,20 +63,24 @@ export default function ContactForm() {
           body: JSON.stringify({ fullname, email, subject, message }),
         });
 
-        const { error } = await res.json();
-        if (error) {
-          console.error(error);
-          setShowFailureMessage(true);
+        const data = await res.json();
+        if (!res.ok) {
+          console.error("Submission error", data.error);
+          setResponseMessage("Failed to send the message. Please try again.");
         } else {
-          setShowSuccessMessage(true);
+          console.log("Submission successful", data.message);
+          setResponseMessage(data.message);
           setFullname("");
           setEmail("");
           setSubject("");
           setMessage("");
         }
+
+        setTimeout(() => {
+          setResponseMessage(null);
+        }, 5000);
       } catch (error) {
         console.error("Submission error", error);
-        setShowFailureMessage(true);
       } finally {
         setButtonText("Send");
       }
@@ -131,7 +134,7 @@ export default function ContactForm() {
                   setEmail(e.target.value);
                 }}
                 className="form-input w-full text-gray-700 focus:border-red-500"
-                placeholder="Enter your first name"
+                placeholder="Enter your email"
                 required
               />
               {errors?.email && (
@@ -156,7 +159,7 @@ export default function ContactForm() {
                   setSubject(e.target.value);
                 }}
                 className="form-input w-full text-gray-700 focus:border-red-500"
-                placeholder="Enter your first name"
+                placeholder="Enter your subject"
                 required
               />
               {errors?.subject && (
@@ -193,34 +196,30 @@ export default function ContactForm() {
               <label className="flex items-center">
                 <input
                   type="checkbox"
-                  value={privacy}
+                  checked={privacy === "true"}
                   onChange={(e) => {
-                    setPrivacy(e.target.value);
+                    setPrivacy(e.target.checked ? "true" : "false");
                   }}
                   className="form-checkbox"
                 />
-                {errors?.privacy && (
-                  <p className="text-red-500">
-                    You must accept the privacy policy.
-                  </p>
-                )}
                 <span className="text-purple-600 ml-2">
                   I agree to the privacy policy
                 </span>
               </label>
+              {errors?.privacy && (
+                <p className="text-red-500">
+                  You must accept the privacy policy.
+                </p>
+              )}
             </div>
           </div>
-          {/* Include error handling and display logic here */}
           <button
             type="submit"
             className="btn text-white bg-purple-600 hover:bg-purple-700 w-full"
           >
             {buttonText}
           </button>
-          {showSuccessMessage && <p>Message sent successfully!</p>}
-          {showFailureMessage && (
-            <p>Failed to send the message. Please try again.</p>
-          )}
+          {responseMessage && <p>{responseMessage}</p>}
         </form>
       </div>
     </section>

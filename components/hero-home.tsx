@@ -1,6 +1,7 @@
 // import VideoThumb from "@/public/images/hero-image-01.jpg";
 // import ModalVideo from "@/components/modal-video";
 import Process from "@/components/process";
+import Link from "next/link";
 
 export default function HeroHome() {
   return (
@@ -69,14 +70,14 @@ export default function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
+                  <Link
                     className="btn group mb-4 w-full bg-purple-500 hover:bg-purple-100 text-white hover:text-black shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="/contact"
                   >
                     <span className="relative inline-flex items-center">
                       Start Free Trial
                     </span>
-                  </a>
+                  </Link>
                   <a
                     className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-800 hover:text-gray-200 sm:ml-4 sm:w-auto"
                     href="/help/frequently-asked-questions"

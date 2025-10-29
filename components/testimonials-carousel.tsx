@@ -60,35 +60,35 @@ export default function TestimonialsCarousel() {
       img: TestimonialSvg01,
       name: "Cloud Native",
       content:
-        "Kubespaces was born in the cloud native communities, leverage many CNCF projects and is built upon solid open source foundations.",
+        "Kubespaces is built on a solid foundation of open source and cloud-native technologies, so you can be confident that you're building on a platform that is secure, scalable, and reliable.",
       channel: "Twitter",
     },
     {
       img: TestimonialSvg02,
-      name: "Free From Toil",
+      name: "Focus on What Matters",
       content:
-        "Our turn-key solution removes infrastructure hassles, allowing developers to focus on crafting code. Start coding, not configuring.",
+        "Our turn-key solution removes infrastructure hassles, allowing your developers to focus on what they do best: writing code.",
       channel: "Twitter",
     },
     {
       img: TestimonialSvg03,
-      name: "Integration",
+      name: "Seamless Integration",
       content:
-        "User-friendly experience for incorporating cloud services. By adopting the popular Kubernetes APIs, it's easy to get started with Kubespaces.",
+        "With a user-friendly experience and the power of the Kubernetes API, it's easy to get started with Kubespaces and integrate it with your existing tools and workflows.",
       channel: "Twitter",
     },
     {
       img: TestimonialSvg04,
-      name: "Clusterless",
+      name: "Truly 'Clusterless'",
       content:
-        "Kubespaces is a clusterless solution that allows you to deploy your applications without the need to manage Kubernetes clusters.",
+        "Kubespaces provides a 'clusterless' experience, so you can deploy your applications without the need to manage Kubernetes clusters.",
       channel: "Twitter",
     },
     {
       img: TestimonialSvg05,
-      name: "Developers",
+      name: "Developer-Friendly",
       content:
-        "Kubespaces is a developer-friendly platform that allows you to deploy your applications without the need to manage Kubernetes clusters.",
+        "Kubespaces is a developer-friendly platform that empowers your team to ship features faster and more reliably than ever before.",
       channel: "Twitter",
     },
   ];
@@ -99,7 +99,7 @@ export default function TestimonialsCarousel() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold md:text-4xl">
-              Your apps, Our Infrastructure
+              Your Apps, Our Platform
             </h2>
             <p
               className="text-xl text-gray-600"
@@ -107,9 +107,7 @@ export default function TestimonialsCarousel() {
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              Kubespaces is democratizing access to secure, scalable,
-              highly-available cloud compute by transforming complex cloud
-              industry mechanisms into plug-and-play solutions. .
+              Kubespaces is democratizing access to secure, scalable, and highly-available cloud compute by transforming complex cloud infrastructure into a simple, plug-and-play solution.
             </p>
           </div>
         </div>

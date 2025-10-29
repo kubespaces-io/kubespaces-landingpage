@@ -12,7 +12,7 @@ export default function Target() {
               className="mb-4 text-3xl font-bold md:text-4xl"
               data-aos="fade-up"
             >
-              How it works
+              A Better Way to Build, Together
             </h2>
           </div>
 
@@ -44,7 +44,7 @@ export default function Target() {
                     data-aos="fade-left"
                     data-aos-anchor="[data-aos-id-target]"
                   >
-                    Cloud native apps
+                    Built for the entire team
                   </div>
                   <div
                     className="mt-6"
@@ -53,11 +53,10 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h3 className="mb-4 text-2xl font-bold md:text-2xl">
-                      <span className="text-purple-600">.</span> For developers
+                      <span className="text-purple-600">.</span> For Developers
                     </h3>
                     <p className="text-lg text-gray-600">
-                      Deploy with confidence over multiple clouds and locations,
-                      using the tried-and-true Kubernetes platform APIs.
+                      Deploy with confidence across multiple clouds and regions, using the same Kubernetes API you know and love.
                     </p>
                   </div>
                   <div
@@ -67,12 +66,10 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h3 className="mb-4 text-2xl font-bold md:text-2xl">
-                      <span className="text-teal-500">.</span> For platform
-                      engineers
+                      <span className="text-teal-500">.</span> For Platform Engineers
                     </h3>
                     <p className="text-lg text-gray-600">
-                      Build upon our services your next platform; integrate with
-                      CI/CD, monitoring and security tools of your choice..
+                      Build your next-generation platform on top of Kubespaces. Integrate with your existing CI/CD, monitoring, and security tools with ease.
                     </p>
                   </div>
                   <div
@@ -82,11 +79,10 @@ export default function Target() {
                     data-aos-anchor="[data-aos-id-target]"
                   >
                     <h3 className="mb-4 text-2xl font-bold md:text-2xl">
-                      <span className="text-pink-500">.</span> For teams
+                      <span className="text-pink-500">.</span> For Teams
                     </h3>
                     <p className="text-lg text-gray-600">
-                      Collaborate with your entire team, share namespaces and
-                      environments with your organization.
+                      Collaborate with your entire team, share namespaces, and manage environments across your organization with our powerful multi-tenancy features.
                     </p>
                   </div>
                 </div>

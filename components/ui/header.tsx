@@ -107,7 +107,7 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <a
-                href="https://app.kubespaces.io"
+                href="https://console.kubespaces.cloud"
                 className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
                 rel="noopener noreferrer"
               >
@@ -116,7 +116,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="https://console.kubespaces.cloud"
                 className="btn-sm bg-purple-500 text-gray-200 shadow hover:bg-gray-900"
               >
                 Register

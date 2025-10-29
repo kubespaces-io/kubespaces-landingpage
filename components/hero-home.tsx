@@ -48,23 +48,21 @@ export default function HeroHome() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
-            <h1
-              className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
-              data-aos="zoom-y-out"
-              data-aos-delay={150}
-            >
-              Namespaces for Everyone
-            </h1>
-            <div className="mx-auto max-w-3xl">
-              <p
-                className="mb-8 text-lg text-gray-700"
-                data-aos="zoom-y-out"
-                data-aos-delay={300}
-              >
-                Unleash developer productivity without the hassle for
-                maintaining infrastructure.
-              </p>
-              <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
+                          <h1
+                            className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
+                            data-aos="zoom-y-out"
+                            data-aos-delay={150}
+                          >
+                            Stop Building Platforms. Start Shipping Code.
+                          </h1>
+                          <div className="mx-auto max-w-3xl">
+                            <p
+                              className="mb-8 text-lg text-gray-700"
+                              data-aos="zoom-y-out"
+                              data-aos-delay={300}
+                            >
+                              Kubespaces is a namespace-as-a-service PaaS that abstracts the complexity of Kubernetes, so you can focus on shipping features, not managing infrastructure.
+                            </p>              <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
                   className="relative mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
                   data-aos="zoom-y-out"

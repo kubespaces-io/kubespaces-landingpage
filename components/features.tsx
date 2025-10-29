@@ -64,15 +64,13 @@ export default function Features() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Lighting fast workflow
+                    Focus on your code, not your infrastructure
                   </div>
                   <h3 className="text-3xl font-bold text-gray-800 md:text-4xl">
-                    Say hello to your applications
+                    The Power of Namespace-as-a-Service
                   </h3>
                   <p className="text-xl text-gray-600 mb-4">
-                    Your tenants, your namespaces, your applications,
-                    immediately available over multiple environments, with
-                    automated global routing and TLS.
+                    Kubespaces provides a true Platform-as-a-Service experience by abstracting away the complexities of Kubernetes. We give you back the most important and value-added piece: the namespace.
                   </p>
                   <ul className="flex flex-wrap text-lg text-gray-600 -mx-2 -my-1">
                     <li className="flex items-center mx-2 my-1">
@@ -83,7 +81,7 @@ export default function Features() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Simple deployments</span>
+                      <span>Multi-tenancy at its core</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -93,7 +91,7 @@ export default function Features() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Unified Kubernetes API</span>
+                      <span>Seamless developer experience</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -103,7 +101,7 @@ export default function Features() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Automatic URL</span>
+                      <span>Powered by open source</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -113,7 +111,7 @@ export default function Features() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Integrated monitoring</span>
+                      <span>Scalable and secure</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -123,7 +121,7 @@ export default function Features() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Freedom to install what you need</span>
+                      <span>Choice of cloud providers</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -146,20 +144,18 @@ export default function Features() {
                     />
                     <div>
                       <blockquote className="text-gray-500 italic m-0 mb-3">
-                        "We spent years building broken platform, with
-                        Kubespaces we are there already and better, safer and
-                        with less developer friction."
+                        "Kubespaces has been a game-changer for our team. We've been able to ship features faster than ever before, without having to worry about the underlying infrastructure."
                       </blockquote>
                       <div className="text-gray-700 font-medium">
                         <cite className="text-gray-500 not-italic">
-                          — Anastasia Dan
+                          — A Happy Customer
                         </cite>{" "}
                         -{" "}
                         <a
                           className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                           href="#0"
                         >
-                          UX Board
+                          Acme Corp
                         </a>
                       </div>
                     </div>

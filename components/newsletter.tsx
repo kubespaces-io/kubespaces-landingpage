@@ -47,10 +47,10 @@ export default function Newsletter() {
           </div>
           <div className="px-4 py-12 md:px-12 md:py-20">
             <h2 className="mb-6 border-y text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
-              Stay in the loop
+              Ready to simplify your Kubernetes workflow?
             </h2>
             <p className="text-gray-100 text-lg mb-4">
-              Join our newsletter to get top news before anyone else.
+              Join our newsletter to get the latest news, updates, and best practices for building and scaling your applications with Kubespaces.
             </p>
             <form
               className="w-full lg:w-1/2 mx-auto"

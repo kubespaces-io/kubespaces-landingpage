@@ -19,11 +19,10 @@ export default function Zigzag() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              One Platform, Unlimited Solutions
+              A Better Way to Build
             </h2>
             <p className="text-xl text-gray-600">
-              We use the Kubernetes API; integrate with thousands of existing
-              tools and providers.
+              Kubespaces is a force multiplier for your team. We provide the tools to excel to the most developers possible, and we believe Kubespaces can be the answer to the years of efforts and resources poured into ad-hoc platform building.
             </p>
           </div>
 
@@ -51,18 +50,17 @@ export default function Zigzag() {
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    More speed. Spend less
+                    More speed. Less friction.
                   </div>
                   <h3
                     className="mb-6 border-y text-2xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-2xl"
                     data-aos="zoom-y-out"
                     data-aos-delay={150}
                   >
-                    Keep projects on schedule
+                    Keep your projects on track
                   </h3>
                   <p className="text-xl text-gray-600 mb-4">
-                    You don't need a full plaform team; your developers can
-                    self-serve Kubespaces within minutes.
+                    You don't need a dedicated platform team to manage Kubernetes. With Kubespaces, your developers can self-serve namespaces in minutes, so you can ship features faster.
                   </p>
                   <ul className="text-lg text-gray-600 -mb-2">
                     <li className="flex items-center mb-2">
@@ -73,7 +71,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Reduced time to market for your projects</span>
+                      <span>Reduce time to market for your projects</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -84,8 +82,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Reuse your existing tools and code for Kubernetes with
-                        Kubespaces
+                        Leverage your existing Kubernetes tools and workflows
                       </span>
                     </li>
                     <li className="flex items-center">
@@ -97,8 +94,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Provision multiple namespaces across environments,
-                        providers and regions
+                        Provision namespaces across multiple environments, providers, and regions
                       </span>
                     </li>
                   </ul>
@@ -128,18 +124,17 @@ export default function Zigzag() {
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-                    Anywhere Platform
+                    A Platform for Growth
                   </div>
                   <h3
                     className="mb-6 border-y text-2xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-2xl"
                     data-aos="zoom-y-out"
                     data-aos-delay={150}
                   >
-                    Unleash Developer Potential
+                    Unleash Your Team's Potential
                   </h3>
                   <p className="text-xl text-gray-600 mb-4">
-                    Never miss a beat and provide your developers with the best
-                    API and best platform.
+                    Provide your developers with the best platform and the best API, so they can focus on what they do best: building great products.
                   </p>
                   <ul className="text-lg text-gray-600 -mb-2">
                     <li className="flex items-center mb-2">
@@ -151,8 +146,7 @@ export default function Zigzag() {
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>
-                        Deploy in multiple regions, across your cloud provider
-                        of choice
+                        Deploy to multiple regions, across your cloud provider of choice
                       </span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -163,7 +157,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>One interface, one API</span>
+                      <span>A single API for all your environments</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -173,7 +167,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Reasonable consumption-based pricing</span>
+                      <span>Consumption-based pricing that scales with you</span>
                     </li>
                   </ul>
                 </div>

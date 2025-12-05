@@ -1,0 +1,9 @@
+[build]
+  command = "npx contentlayer build && next build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20.9.0"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

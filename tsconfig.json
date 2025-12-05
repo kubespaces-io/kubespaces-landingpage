@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "noImplicitAny": true,
     "skipLibCheck": true,
@@ -13,7 +17,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
@@ -22,8 +26,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "@/*": [
+        "./*"
+      ],
+      "contentlayer/generated": [
+        "./.contentlayer/generated"
+      ]
     }
   },
   "include": [
@@ -31,7 +39,12 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    ".contentlayer/generated"
-, "app/api/subscribe/route.ts", "app/api/sendgrid/route.ts-broken"  ],
-  "exclude": ["node_modules"]
+    ".contentlayer/generated",
+    "app/api/subscribe/route.ts",
+    "app/api/sendgrid/route.ts-broken",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

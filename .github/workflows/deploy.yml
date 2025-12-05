@@ -23,11 +23,8 @@ jobs:
       - name: Generate Contentlayer files
         run: npx contentlayer build
 
-      - name: Build project
+      - name: Build and export project
         run: npm run build
-
-      - name: Export static files
-        run: npm run export || echo "No export script, using build output"
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4

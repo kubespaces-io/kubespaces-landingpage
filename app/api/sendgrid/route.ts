@@ -7,7 +7,7 @@ type ResponseData = {
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY!);
 
-export async function POST(req: NextRequest, res: NextResponse<ResponseData>) {
+export async function POST(req: NextRequest) {
   const body = await req.json();
   try {
     await sendgrid.send({
